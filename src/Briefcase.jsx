@@ -1,6 +1,7 @@
 import { useState } from "react";
 
 import { LanguageButton } from "./components/language/ChangeLanguageBtn";
+import { Navbar } from "./components/navbar/navbar";
 
 import { LanguageContext } from "./helpers/LanguageContext";
 
@@ -14,7 +15,8 @@ export const Briefcase = () => {
   return (
     <div>
       <LanguageContext.Provider value={{ language, toggleLanguage }}>
-        <LanguageButton />
+        {/* <LanguageButton /> */}
+        <Navbar />
       </LanguageContext.Provider>
     </div>
   );
