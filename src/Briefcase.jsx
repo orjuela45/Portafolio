@@ -1,7 +1,6 @@
 import { useState } from "react";
 
 import { LanguageButton } from "./components/language/ChangeLanguageBtn";
-import { Navbar } from "./components/navbar/NavbarList";
 
 import { LanguageContext } from "./helpers/LanguageContext";
 
