@@ -1,27 +1,40 @@
 import React from "react";
+import { NavbarItem } from "./NavbarItem";
+
+const listNabvar = [
+  {
+    name: "biography",
+    label: "lbl-biography",
+    redirect: "#",
+  },
+  {
+    name: "academicTraining",
+    label: "lbl-academicTraining",
+    redirect: "#",
+  },
+  {
+    name: "projects",
+    label: "lbl-projects",
+    redirect: "#",
+  },
+  {
+    name: "contactInformation",
+    label: "lbl-contactInformation",
+    redirect: "#",
+  },
+  {
+    name: "cv",
+    label: "lbl-cv",
+    redirect: "#",
+  },
+];
 
 export const Navbar = () => {
   return (
-    <nav className="navbar sticky-top navbar-expand-lg navbar-dark bg-dark bg-gradiant">
-        <div className="container">
-          <ul className="navbar-nav">
-            <li className="nav-item">
-              <a href="#">Hola</a>
-            </li>
-            <li className="nav-item">
-              <a href="#">Esto</a>
-            </li>
-            <li className="nav-item">
-              <a href="#">Es</a>
-            </li>
-            <li className="nav-item">
-              <a href="#">una</a>
-            </li>
-            <li className="nav-item">
-              <a href="#">Prueba</a>
-            </li>
-          </ul>
-        </div>
-    </nav>
+    <ul className="navbar navbar-expand sticky-top navbar-dark bg-dark bg-gradiant row justify-content-around">
+      {listNabvar.map((item) => (
+        <NavbarItem key={item.name} {...item} />
+      ))}
+    </ul>
   );
 };
