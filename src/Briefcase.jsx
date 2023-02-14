@@ -16,7 +16,7 @@ export const Briefcase = () => {
   return (
     <div>
       <LanguageContext.Provider value={{ language, toggleLanguage }}>
-        {/* <LanguageButton /> */}
+        <LanguageButton />
         <WelcomePanel />
         <Navbar />
       </LanguageContext.Provider>
