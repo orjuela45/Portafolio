@@ -3,7 +3,21 @@ import { motion } from "framer-motion"
 import { Image } from "../Images/Image"
 import { Presentation } from "./Presentation"
 
-const urlImage = '/perfil.jpeg'
+const urlImage  = '/perfil.jpeg'
+const animation = {
+  initial:{
+    opacity: 0, 
+    x: "120%"
+  },
+  animate:{
+    opacity: 1, 
+    x: 0
+  },
+  transition:{
+    duration: 1
+  }
+}
+
 
 export const WelcomePanel = () => {
   return (
@@ -12,10 +26,7 @@ export const WelcomePanel = () => {
         <div className="col-7 col-xl-3 p-3">
           <Presentation />
         </div>
-        <motion.div className="col-4 col-xl-5 p-3 text-center"
-          initial={{opacity: 0, x: "120%"}}
-          animate={{opacity: 1, x: 0}}
-          transition={{duration: 1}}
+        <motion.div className="col-4 col-xl-5 p-3 text-center" {...animation}
         >
           <Image url={urlImage} />
         </motion.div>
