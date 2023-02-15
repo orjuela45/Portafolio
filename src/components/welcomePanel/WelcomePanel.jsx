@@ -1,4 +1,4 @@
-import { Image } from "./Image"
+import { Image } from "../Images/Image"
 import { Presentation } from "./Presentation"
 
 const urlImage = '/perfil.jpeg'

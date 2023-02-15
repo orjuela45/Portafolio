@@ -1,18 +1,34 @@
 import { useContext } from "react";
 import { LanguageContext } from "../../helpers/LanguageContext";
+import { Image } from "../Images/Image";
 
-const languageFlags = {
-  "spanish": '/spain.png',
-  "english": '/united-kingdom.png',
-}
+const languagesInfo = [
+  {
+    "language": "spanish",
+    "image": "/spain.png",
+    "alt": "Español"
+  },
+  {
+    "language": "english",
+    "image": "/united-kingdom.png",
+    "alt": "English"
+  }
+]
 
 export const LanguageFlags = () => {
-  const { language, toggleLanguage } = useContext(LanguageContext);
+  const { toggleLanguage } = useContext(LanguageContext);
 
   return (
     <>
-      <a onClick={() => toggleLanguage("spanish")} className="m-2"><img width="30px" src={languageFlags.spanish} className="rounded-circle img-fluid" alt="Español"></img></a>
-      <a onClick={() => toggleLanguage("english")}><img width="30px" src={languageFlags.english} className="rounded-circle img-fluid" alt="English"></img></a>
+      <div className="row"> 
+      {
+        languagesInfo.map((language) => 
+          <a key={language.language} onClick={() => toggleLanguage(language.language)} className="col-auto">
+            <Image key="flag-spanish" url={language.image} alt={language.alt} width={"30px"} />
+          </a> 
+        )
+      }
+      </div>
     </>
   );
 };

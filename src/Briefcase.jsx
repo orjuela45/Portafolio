@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-import { LanguageFlags } from "./components/language/LanguageFlags";
+import { HeaderTop } from "./components/headerTop/HeaderTop";
 import { Navbar } from "./components/navbar/navbar";
 import { WelcomePanel } from "./components/welcomePanel/WelcomePanel";
 
@@ -16,7 +16,7 @@ export const Briefcase = () => {
   return (
     <div>
       <LanguageContext.Provider value={{ language, toggleLanguage }}>
-        <LanguageFlags />
+        <HeaderTop />
         <WelcomePanel />
         <Navbar />
       </LanguageContext.Provider>
