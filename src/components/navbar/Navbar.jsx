@@ -44,7 +44,7 @@ const animation = {
 
 export const Navbar = () => {
   return (
-    <ul className="navbar navbar-expand sticky-top navbar-dark bg-dark bg-gradiant row justify-content-around">
+    <ul className="navbar navbar-expand sticky-top navbar-dark bg-dark bg-gradiant row justify-content-around p-3">
       {listNabvar.map((item) => {
         return <NavbarItem key={item.name} {...item} animation={animation} />
       })}

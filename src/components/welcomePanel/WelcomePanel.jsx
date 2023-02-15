@@ -21,12 +21,12 @@ const animation = {
 
 export const WelcomePanel = () => {
   return (
-    <div className="row p-2 bg-dark presentation">
-      <div className="row justify-content-center justify-content-xl-around align-items-center">
-        <div className="col-7 col-xl-3 p-3">
+    <div className="row p-2 bg-dark">
+      <div className="row justify-content-around align-items-center">
+        <div className="col-auto p-3">
           <Presentation />
         </div>
-        <motion.div className="col-4 col-xl-5 p-3 text-center" {...animation}
+        <motion.div className="col-10 col-sm-auto p-3 text-center" {...animation}
         >
           <Image url={urlImage} />
         </motion.div>
