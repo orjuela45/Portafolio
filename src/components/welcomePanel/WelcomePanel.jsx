@@ -23,10 +23,10 @@ export const WelcomePanel = () => {
   return (
     <div className="row p-2 bg-dark">
       <div className="row justify-content-around align-items-center">
-        <div className="col-auto p-3">
+        <div className="col-10 col-sm-auto p-3">
           <Presentation />
         </div>
-        <motion.div className="col-10 col-sm-auto p-3 text-center" {...animation}
+        <motion.div className="col-8 col-sm-7 col-md-auto p-3 text-center" {...animation}
         >
           <Image url={urlImage} />
         </motion.div>

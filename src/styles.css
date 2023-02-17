@@ -19,8 +19,14 @@ ul {
   font-size: 7.6em;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1440px) {
   .presentation{
-    font-size: 2.5em;
+    font-size: 6em;
+  }
+}
+
+@media (max-width: 576px) {
+  .presentation{
+    font-size: 3em;
   }
 }
