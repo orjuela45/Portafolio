@@ -9,6 +9,7 @@ const translations = {
     "lbl-greet": "Hi there",
     "lbl-presentation": "I'm Miguel Orjuela",
     "lbl-profession": "Systems engineer",
+    "lbl-experience": "Experience",
   },
   "spanish": {
     "lbl-hello": "Hola mundo",
@@ -20,6 +21,7 @@ const translations = {
     "lbl-greet": "Hola",
     "lbl-presentation": "Soy Miguel Orjuela",
     "lbl-profession": "Ingeniero de sistemas",
+    "lbl-experience": "Experiencía",
   }
 }
 

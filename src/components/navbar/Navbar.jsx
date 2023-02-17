@@ -12,6 +12,11 @@ const listNabvar = [
     redirect: "#",
   },
   {
+    name: "experience",
+    label: "lbl-experience",
+    redirect: "#",
+  },
+  {
     name: "projects",
     label: "lbl-projects",
     redirect: "#",

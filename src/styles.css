@@ -29,4 +29,9 @@ ul {
   .presentation{
     font-size: 3em;
   }
+
+  html,body
+  {
+      font-size: 1em;
+  }
 }
