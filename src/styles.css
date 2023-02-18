@@ -11,6 +11,10 @@ ul {
   list-style-type: none;
 }
 
+#navbarNav {
+  transition: height 1s ease;
+}
+
 .presentation{
   font-size: 7.6em;
 }

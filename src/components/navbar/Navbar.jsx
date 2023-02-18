@@ -1,4 +1,5 @@
 import Sticky from 'react-stickynode';
+import { motion } from "framer-motion";
 
 import { NavbarItem } from "./NavbarItem";
 
@@ -53,10 +54,10 @@ export const Navbar = () => {
   return (
     <Sticky enabled={true} top={0}>
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark bg-gradiant justify-content-around p-3">
-        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <motion.button className="navbar-toggler m-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" {...animation}>
           <span className="navbar-toggler-icon"></span>
-        </button>
-        <div className="collapse navbar-collapse" id="navbarNav">
+        </motion.button>
+        <div className="collapse navbar-collapse" id="navbarNav" >
           <ul className="navbar-nav col-12">
             {listNabvar.map((item) => {
               return <NavbarItem key={item.name} {...item} animation={animation} />
