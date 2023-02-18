@@ -21,6 +21,7 @@ export const Briefcase = () => {
         <WelcomePanel />
         <Navbar />
         <SectionPanel />
+        <SectionPanel />
       </LanguageContext.Provider>
     </div>
   );

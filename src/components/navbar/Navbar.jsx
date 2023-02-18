@@ -1,3 +1,5 @@
+import Sticky from 'react-stickynode';
+
 import { NavbarItem } from "./NavbarItem";
 
 const listNabvar = [
@@ -49,8 +51,8 @@ const animation = {
 
 export const Navbar = () => {
   return (
-    <div style={{height:"auto"}}>
-      <nav className="navbar navbar-expand-lg navbar-dark bg-dark bg-gradiant justify-content-around p-3 sticky-top">
+    <Sticky enabled={true} top={0}>
+      <nav className="navbar navbar-expand-lg navbar-dark bg-dark bg-gradiant justify-content-around p-3">
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
@@ -62,6 +64,6 @@ export const Navbar = () => {
           </ul>
         </div>
       </nav>
-    </div>
+    </Sticky>
   );
 };
