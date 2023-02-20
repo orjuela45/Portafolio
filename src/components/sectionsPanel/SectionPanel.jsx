@@ -3,7 +3,7 @@ import { SectionSchema } from "./SectionSchema"
 
 export const SectionPanel = () => {
   return (
-    <div className="m-5">
+    <div className="m-5 section">
       <SectionSchema id={"section1"}>
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque, dolorem. Officia quidem vel qui aliquam mollitia eligendi sint amet deleniti, perferendis neque voluptas odit ut labore esse asperiores inventore reiciendis.
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque, dolorem. Officia quidem vel qui aliquam mollitia eligendi sint amet deleniti, perferendis neque voluptas odit ut labore esse asperiores inventore reiciendis.

@@ -23,7 +23,6 @@ export const Briefcase = () => {
         <WelcomePanel />
         <Navbar />
         <SectionPanel />
-        <SectionPanel />
         <TopPageButton />
       </LanguageContext.Provider>
     </div>
