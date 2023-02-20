@@ -4,7 +4,7 @@ import { SectionSchema } from "./SectionSchema"
 
 export const SectionPanel = () => {
   return (
-    <div className="mt-4 section">
+    <div className="row m-4  section justify-content-center">
       <SectionSchema id={"section1"}>
         <BiographySection />
       </SectionSchema>
