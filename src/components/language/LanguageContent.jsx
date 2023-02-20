@@ -11,5 +11,7 @@ export const LanguageContent = ({contentID, replaceTexts = {}}) => {
     translation = translation.replace(key, replaceTexts[key])
   })
 
-  return translation; 
+  return (
+    <span dangerouslySetInnerHTML={{__html:translation}}></span>
+  ); 
 }

@@ -12,7 +12,7 @@ export const BiographySection = () => {
     <>
       <h1 className="border-bottom"><LanguageContent contentID={"lbl-biography"} /></h1>
       <div className="row">
-        <span className="col-auto mt-2" style={{"text-align": "justify"}}>
+        <span className="col-auto mt-2" style={{textAlign: "justify"}}>
           <LanguageContent contentID={"lbl-biographyDescription"} replaceTexts={replaceTexts} />
         </span>
       </div>
