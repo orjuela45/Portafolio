@@ -11,13 +11,8 @@ const listNabvar = [
   },
   {
     name: "academicTraining",
-    label: "lbl-academicTraining",
+    label: "lbl-academicTrainingAndExperience",
     redirect: "section2",
-  },
-  {
-    name: "experience",
-    label: "lbl-experience",
-    redirect: "section3",
   },
   {
     name: "projects",
@@ -53,12 +48,12 @@ const animation = {
 export const Navbar = () => {
   return (
     <Sticky enabled={true} top={0}>
-      <nav className="navbar navbar-expand-sm navbar-dark bg-dark bg-gradiant justify-content-around p-3">
+      <nav className="navbar navbar-expand-sm navbar-dark bg-dark bg-gradiant p-3">
         <motion.button className="navbar-toggler m-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" {...animation}>
           <span className="navbar-toggler-icon"></span>
         </motion.button>
         <div className="collapse navbar-collapse" id="navbarNav" >
-          <ul className="navbar-nav col-12">
+          <ul className="navbar-nav col-12 justify-content-around">
             {listNabvar.map((item) => {
               return <NavbarItem key={item.name} {...item} animation={animation} />
             })}

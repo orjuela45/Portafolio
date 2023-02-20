@@ -2,26 +2,24 @@ const translations = {
   "english": {
     "lbl-hello": "Hello world",
     "lbl-biography": "Biography",
-    "lbl-academicTraining": "Academic training",
+    "lbl-academicTrainingAndExperience": "Academic training and experience",
     "lbl-projects": "Projects",
     "lbl-contactInformation": "Contact information",
     "lbl-cv": "CV",
     "lbl-greet": "Hi there",
     "lbl-presentation": "I'm Miguel Orjuela",
     "lbl-profession": "Systems engineer",
-    "lbl-experience": "Experience",
   },
   "spanish": {
     "lbl-hello": "Hola mundo",
     "lbl-biography": "Biografía",
-    "lbl-academicTraining": "Formación academica",
+    "lbl-academicTrainingAndExperience": "Formación academica y experiencía",
     "lbl-projects": "Proyectos",
     "lbl-contactInformation": "Datos de contacto",
     "lbl-cv": "Currículum",
     "lbl-greet": "Hola",
     "lbl-presentation": "Soy Miguel Orjuela",
     "lbl-profession": "Ingeniero de sistemas",
-    "lbl-experience": "Experiencía",
   }
 }
 
