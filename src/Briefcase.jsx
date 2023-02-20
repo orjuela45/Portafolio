@@ -1,5 +1,7 @@
 import { useState } from "react";
 
+import { TopPageButton } from "./components/buttons/TopPageButton";
+
 import { HeaderTop } from "./components/headerTop/HeaderTop";
 import { Navbar } from "./components/navbar/navbar";
 import { SectionPanel } from "./components/sectionsPanel/SectionPanel";
@@ -22,6 +24,7 @@ export const Briefcase = () => {
         <Navbar />
         <SectionPanel />
         <SectionPanel />
+        <TopPageButton />
       </LanguageContext.Provider>
     </div>
   );
