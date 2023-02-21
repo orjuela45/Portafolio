@@ -4,11 +4,11 @@ import { simpleTranslation } from '../language/LanguageContent'
 
 const generalStylesTimeLine = {
   contentStyle:{ 
-    background: 'rgb(33, 150, 243)', 
+    background: '#212529', 
     color: '#fff' 
   },
   contentArrowStyle:{ 
-    borderRight: '7px solid  rgb(33, 150, 243)' 
+    borderRight: '10px solid #212529' 
   },
 }
 
@@ -25,8 +25,10 @@ export const CardTimeLine = ({info}) => {
       {...generalStylesTimeLine}
       icon={<Image url={icon} />}
       key={`timeline-${title}-${subtitle}`}
-      className={`vertical-timeline-element--${type}`}
+      className={`vertical-timeline-element--${type} col-auto`}
       iconClassName="bg-dark"
+      textClassName='bg-dark'
+
       date={date}
     >
       <h3 className="text-uppercase">{simpleTranslation(title)}</h3>
@@ -36,7 +38,7 @@ export const CardTimeLine = ({info}) => {
       </p>
       <div className="row mt-3">
         {images.map(image => {
-          return <div className="col-auto m-2" key={`img-${image}-${subtitle}`}><Image url={image} width={"50px"} /></div>
+          return <div className="col-auto m-1" key={`img-${image}-${subtitle}`}><Image url={image} width={"50px"} /></div>
         })}
       </div>
     </VerticalTimelineElement>
