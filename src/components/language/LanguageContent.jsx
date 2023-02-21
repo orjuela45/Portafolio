@@ -15,3 +15,8 @@ export const LanguageContent = ({contentID, replaceTexts = {}}) => {
     <span dangerouslySetInnerHTML={{__html:translation}}></span>
   ); 
 }
+
+export const simpleTranslation = (contentID) =>{
+  const { language } = useContext(LanguageContext);
+  return translations[language][contentID] ?? contentID;
+}
