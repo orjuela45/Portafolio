@@ -29,8 +29,8 @@ export const CardTimeLine = ({info}) => {
       iconClassName="bg-dark"
       date={date}
     >
-      <h3 className="vertical-timeline-element-title">{simpleTranslation(title)}</h3>
-      <h4 className="vertical-timeline-element-subtitle">{simpleTranslation(subtitle)}</h4>
+      <h3 className="text-uppercase">{simpleTranslation(title)}</h3>
+      <h4>{simpleTranslation(subtitle)}</h4>
       <p>
         {simpleTranslation(description)}
       </p>

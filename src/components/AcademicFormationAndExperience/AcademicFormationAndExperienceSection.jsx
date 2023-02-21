@@ -183,6 +183,42 @@ const timeLineInfo = [
     },
     icon: "./talent.png",
   },
+  {
+    type: "education",
+    title: "lbl-solidCertification-title",
+    subtitle: "Udemy",
+    description: "lbl-solidCertification-description",
+    images: [],
+    dates: {
+      yearInit: "2022",
+      monthInit: "lbl-december",
+    },
+    icon: "./udemy.png",
+  },
+  {
+    type: "education",
+    title: "lbl-nodeCertification-title",
+    subtitle: "Udemy",
+    description: "lbl-nodeCertification-description",
+    images: [],
+    dates: {
+      yearInit: "2022",
+      monthInit: "lbl-december",
+    },
+    icon: "./udemy.png",
+  },
+  {
+    type: "education",
+    title: "lbl-typescriptCertification-title",
+    subtitle: "Udemy",
+    description: "lbl-typescriptCertification-description",
+    images: [],
+    dates: {
+      yearInit: "2023",
+      monthInit: "lbl-january",
+    },
+    icon: "./udemy.png",
+  },
 ]
 
 export const AcademicFormationAndExperienceSection = () => {
