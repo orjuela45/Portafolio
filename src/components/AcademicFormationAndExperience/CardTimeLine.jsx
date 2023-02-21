@@ -25,7 +25,7 @@ export const CardTimeLine = ({info}) => {
       {...generalStylesTimeLine}
       icon={<Image url={icon} />}
       key={`timeline-${title}-${subtitle}`}
-      className={`vertical-timeline-element--${type} col-auto`}
+      className={`col-auto`}
       iconClassName="bg-dark"
       textClassName='bg-dark'
 
