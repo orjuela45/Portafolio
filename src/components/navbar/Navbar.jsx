@@ -10,6 +10,11 @@ const listNabvar = [
     redirect: "section1",
   },
   {
+    name: "skills",
+    label: "lbl-skills",
+    redirect: "section1",
+  },
+  {
     name: "academicTraining",
     label: "lbl-academicTrainingAndExperience",
     redirect: "section2",
@@ -48,7 +53,7 @@ const animation = {
 export const Navbar = () => {
   return (
     <Sticky enabled={true} top={0} innerZ={1000}>
-      <nav className="navbar navbar-expand-sm navbar-dark bg-dark bg-gradiant justify-content-around p-3">
+      <nav className="navbar navbar-expand-md navbar-dark bg-dark bg-gradiant justify-content-around p-3">
         <motion.button className="navbar-toggler m-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" {...animation}>
           <span className="navbar-toggler-icon"></span>
         </motion.button>

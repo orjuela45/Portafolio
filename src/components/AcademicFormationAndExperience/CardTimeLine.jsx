@@ -1,5 +1,5 @@
 import { VerticalTimelineElement } from 'react-vertical-timeline-component'
-import { Image } from '../Images/Image'
+import { Image } from '../images/Image'
 import { simpleTranslation } from '../language/LanguageContent'
 
 const generalStylesTimeLine = {

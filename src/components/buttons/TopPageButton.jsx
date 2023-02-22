@@ -2,7 +2,7 @@ import { useEffect, useState } from "react"
 
 import { animateScroll } from "react-scroll";
 import { motion } from "framer-motion";
-import { Image } from "../Images/Image";
+import { Image } from "../images/Image";
 
 const animation = {
   initial: {

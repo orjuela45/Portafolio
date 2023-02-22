@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import { LanguageContext } from "../../helpers/LanguageContext";
-import { Image } from "../Images/Image";
+import { Image } from "../images/Image";
 
 const languagesInfo = [
   {
