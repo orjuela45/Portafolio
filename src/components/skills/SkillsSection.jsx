@@ -4,6 +4,7 @@ import { LanguageContent } from "../language/LanguageContent";
 import { NavTabs } from "./NavTabs";
 
 const {personal: personalSkills, professional: professionalSkills} = skillsInformation;
+
 const tabSkills = [
   {
     label: "lbl-professional",
@@ -18,8 +19,10 @@ const tabSkills = [
     selected: false,
   },
 ]
-export const SkillsSection = () => {
 
+const tabsProfessionalSkills = professionalSkills.map(({items, ...rest}) => rest)
+
+export const SkillsSection = () => {
 
   return (
     <>
@@ -27,9 +30,28 @@ export const SkillsSection = () => {
       <NavTabs tabs={tabSkills} id="navtabSkills"/>
       <div className="tab-content rounded-bottom border-bottom border-end border-start p-4" id="navtabSkillsContent">
         <div className="tab-pane fade show active " id="professionalSkills" role="professionalSkills" aria-labelledby="professionalSkills-tab">
-          {
-            <>hola</>
-          }
+          <div className="row justify-content-around">
+            <NavTabs tabs={tabsProfessionalSkills} id="navtabSkillsProfessional"/>
+            <div className="tab-content rounded-bottom border-bottom border-end border-start p-4" id="navtabProfessionalSkillsContent">
+              {
+                professionalSkills.map(skill => 
+                  <div key={skill.id} className={`tab-pane fade show ${skill.selected && 'active'}`} id={skill.target} role={skill.target} aria-labelledby={skill.id}>
+                    <div className="row justify-content-around">
+                      {
+                        skill.items.map(item => 
+                          <div className="col-auto m-2 align-self-center text-center" key={item.id}>
+                            <Image alt={item.id} url={item.icon} width={"50px"} className={''} />
+                            <br />
+                            <small className="mt-1 text-secondary text-uppercase">{item.name}</small>
+                          </div>
+                        )
+                      }
+                    </div>
+                  </div>
+                )
+              }
+            </div>  
+          </div>
         </div>
         <div className="tab-pane fade" id="personalSkills" role="tabpanel" aria-labelledby="personalSkills-tab">
           <div className="row justify-content-around">

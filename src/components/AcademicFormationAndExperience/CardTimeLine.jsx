@@ -38,7 +38,7 @@ export const CardTimeLine = ({info}) => {
       </p>
       <div className="row mt-3">
         {images.map(image => {
-          return <div className="col-auto m-1" key={`img-${image}-${subtitle}`}><Image url={image} width={"50px"} /></div>
+          return <div className="col-auto m-1" key={`img-${image}-${subtitle}`}><Image url={image} width={"50px"} className={''}/></div>
         })}
       </div>
     </VerticalTimelineElement>

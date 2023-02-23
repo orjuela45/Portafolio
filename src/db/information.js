@@ -215,9 +215,279 @@ export const academicAndExperienceInformation = [
 ]
 
 export const skillsInformation = {
-  professional: {
-    
-  },
+  professional: [
+    {
+      id: "tab-professionalSkills-programming",
+      label: "lbl-programming",
+      target: "professionalSkills-programming",
+      selected: true,
+      items: [
+        {
+          id: "programming-php",
+          name: "php",
+          icon: "./php.png"
+        },
+        {
+          id: "programming-js",
+          name: "js",
+          icon: "./js.png"
+        },
+        {
+          id: "programming-ts",
+          name: "ts",
+          icon: "./ts.png"
+        },
+        {
+          id: "programming-html",
+          name: "html",
+          icon: "./html.png"
+        },
+        {
+          id: "programming-css",
+          name: "css",
+          icon: "./css.png"
+        },
+        {
+          id: "programming-c#",
+          name: "c#",
+          icon: "./c-sharp.png"
+        },
+        {
+          id: "programming-java",
+          name: "java",
+          icon: "./java.png"
+        }
+      ]
+    },
+    {
+      id: "tab-professionalSkills-frameworks",
+      label: "lbl-frameworks",
+      target: "professionalSkills-frameworks",
+      selected: false,
+      items: [
+        {
+          id: "frameworks-laravel",
+          name: "laravel",
+          icon: "./laravel.png"
+        },
+        {
+          id: "frameworks-yii2",
+          name: "yii2",
+          icon: "./yii2.png"
+        },
+        {
+          id: "frameworks-nestjs",
+          name: "nestjs",
+          icon: "./nestjs.png"
+        },
+        {
+          id: "frameworks-vuejs",
+          name: "vuejs",
+          icon: "./vuejs.png"
+        }
+      ]
+    },
+    {
+      id: "tab-professionalSkills-libraries",
+      label: "lbl-libraries",
+      target: "professionalSkills-libraries",
+      selected: false,
+      items: [
+        {
+          id: "libraries-bootstrap",
+          name: "bootstrap",
+          icon: "./laravel.png"
+        },
+        {
+          id: "libraries-react",
+          name: "react",
+          icon: "./react-native.png"
+        },
+        {
+          id: "libraries-nodejs",
+          name: "nodejs",
+          icon: "./nodejs.png"
+        },
+        {
+          id: "libraries-express",
+          name: "express",
+          icon: "./express.png"
+        },
+        {
+          id: "libraries-typeorm",
+          name: "typeorm",
+          icon: "./typeorm.png"
+        },
+        {
+          id: "libraries-socketio",
+          name: "socketio",
+          icon: "./socketio.png"
+        }
+      ]
+    },
+    {
+      id: "tab-professionalSkills-tools",
+      label: "lbl-tools",
+      target: "professionalSkills-tools",
+      selected: false,
+      items: [
+        {
+          id: "tools-jira",
+          name: "jira",
+          icon: "./jira.png"
+        },
+        {
+          id: "tools-github",
+          name: "github",
+          icon: "./github.png"
+        },
+        {
+          id: "tools-gitlab",
+          name: "gitlab",
+          icon: "./gitlab.png"
+        },
+        {
+          id: "tools-trello",
+          name: "trello",
+          icon: "./trello.png"
+        },
+        {
+          id: "tools-linux",
+          name: "linux",
+          icon: "./linux.png"
+        },
+        {
+          id: "tools-vscode",
+          name: "vscode",
+          icon: "./vscode.png"
+        },
+        {
+          id: "tools-phpstorm",
+          name: "phpstorm",
+          icon: "./phpstorm.png"
+        },
+        {
+          id: "tools-docker",
+          name: "docker",
+          icon: "./docker.png"
+        },
+        {
+          id: "tools-office",
+          name: "office",
+          icon: "./office.png"
+        },
+        {
+          id: "tools-gmail",
+          name: "gmail",
+          icon: "./gmail.png"
+        },
+        {
+          id: "tools-calendar",
+          name: "calendar",
+          icon: "./calendar.png"
+        },
+        {
+          id: "tools-teams",
+          name: "teams",
+          icon: "./teams.png"
+        },
+        {
+          id: "tools-outlook",
+          name: "outlook",
+          icon: "./outlook.png"
+        },
+      ]
+    },
+    {
+      id: "tab-professionalSkills-database",
+      label: "lbl-database",
+      target: "professionalSkills-database",
+      selected: false,
+      items: [
+        {
+          id: "database-mysql",
+          name: "mysql",
+          icon: "./mysql.png"
+        },
+        {
+          id: "database-mongodb",
+          name: "mongodb",
+          icon: "./mongodb.png"
+        },
+        {
+          id: "database-oracle",
+          name: "oracle",
+          icon: "./oracle.png"
+        },
+        {
+          id: "database-sqlserver",
+          name: "sqlserver",
+          icon: "./sqlserver.png"
+        },
+        {
+          id: "database-postgress",
+          name: "postgress",
+          icon: "./postgress.png"
+        },
+        {
+          id: "database-elasticsearch",
+          name: "elasticsearch",
+          icon: "./elasticsearch.png"
+        }
+      ]
+    },
+    {
+      id: "tab-professionalSkills-goodPractice",
+      label: "lbl-goodPractice",
+      target: "professionalSkills-goodPractice",
+      selected: false,
+      items: [
+        {
+          id: "goodPractice-scrum",
+          name: "scrum",
+          icon: "./scrum.png"
+        },
+        {
+          id: "goodPractice-cleancode",
+          name: "cleancode - solid",
+          icon: "./cleancode.png"
+        },
+        {
+          id: "goodPractice-restapi",
+          name: "restapi",
+          icon: "./restapi.png"
+        },
+        {
+          id: "goodPractice-json",
+          name: "json",
+          icon: "./json.png"
+        },
+      ]
+    },
+    {
+      id: "tab-professionalSkills-deploy",
+      label: "lbl-deploy",
+      target: "professionalSkills-deploy",
+      selected: false,
+      items: [
+        {
+          id: "deploy-heroku",
+          name: "heroku",
+          icon: "./heroku.png"
+        },
+        {
+          id: "deploy-railway",
+          name: "railway",
+          icon: "./railway.png"
+        },
+        {
+          id: "deploy-aws",
+          name: "aws web service",
+          icon: "./aws.png"
+        }
+      ]
+    }
+  ],
   personal: [
     {
       label: "lbl-adaptability",
