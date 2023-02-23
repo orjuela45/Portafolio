@@ -4,11 +4,11 @@ import { simpleTranslation } from '../language/LanguageContent'
 
 const generalStylesTimeLine = {
   contentStyle:{ 
-    background: '#212529', 
+    background: '#292b2c', 
     color: '#fff' 
   },
   contentArrowStyle:{ 
-    borderRight: '10px solid #212529' 
+    borderRight: '10px solid #292b2c' 
   },
 }
 
@@ -27,7 +27,6 @@ export const CardTimeLine = ({info}) => {
       key={`timeline-${title}-${subtitle}`}
       className={`col-auto`}
       iconClassName="bg-dark"
-      textClassName='bg-dark'
 
       date={date}
     >

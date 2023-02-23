@@ -57,9 +57,12 @@ export const SkillsSection = () => {
           <div className="row justify-content-around">
             {
               personalSkills.map(skill => 
-                <div className="col-3 m-3 align-self-center" key={skill.id}>
+                <div className="col-auto m-3 align-self-center text-center" key={skill.id}>
                   <Image alt={skill.id} url={skill.icon} width={"40px"} className={''} />
-                  <LanguageContent contentID={skill.label} />
+                  <br />
+                  <small>
+                    <LanguageContent contentID={skill.label} />
+                  </small>
                 </div>
               )
             }
