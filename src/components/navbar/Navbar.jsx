@@ -7,22 +7,22 @@ const listNabvar = [
   {
     name: "biography",
     label: "lbl-biography",
-    redirect: "section1",
+    redirect: "biographySection",
   },
   {
     name: "skills",
     label: "lbl-skills",
-    redirect: "section1",
+    redirect: "skillsSection",
   },
   {
     name: "academicTraining",
     label: "lbl-academicTrainingAndExperience",
-    redirect: "section2",
+    redirect: "academicSection",
   },
   {
     name: "projects",
     label: "lbl-projects",
-    redirect: "section4",
+    redirect: "projectsSection",
   },
   {
     name: "contactInformation",

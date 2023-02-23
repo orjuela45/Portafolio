@@ -557,4 +557,41 @@ export const skillsInformation = {
   ]
 }
 
-
+export const projectsInformation = [
+  {
+    description: "lbl-videogame-description",
+    id: "lbl-videogame",
+    image: "./videogame.png",
+    integrants: [
+      "Miguel Orjuela",
+      "Ivan Guerra"
+    ],
+    link: "https://drive.google.com/file/d/18yPyNLs9VqsNjaeJhtMsmHDpcoMo1buM/view",
+    name: "16-pixels of care",
+    repository: "https://github.com/ivanchuelo14/Proyecto_Grado_Covid_Videogame",
+    tags: [
+      "project grade",
+      "university",
+      "videogame",
+    ],
+    technologies: [
+      {
+        name: "c-sharp",
+        icon: "./c-sharp.png"
+      },
+      {
+        name: "github",
+        icon: "./github.png"
+      },
+      {
+        name: "c-jira",
+        icon: "./jira.png"
+      },
+      {
+        name: "unity",
+        icon: "./unity.png"
+      },
+    ],
+    shortDescription: "lbl-videogame-description-short"
+  }
+]

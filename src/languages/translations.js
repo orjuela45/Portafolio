@@ -138,6 +138,7 @@ const translations = {
     "lbl-database": "Bases de datos",
     "lbl-goodPractice": "Buenas practicas",
     "lbl-deploy": "Despliques",
+    "lbl-videogame-description-short": "Este es mi proyecto de grado, el cual consistía en desarrollar un videojuego para la correcta prevención y cuidado del covid-19 para dispositivos móviles."
   }
 }
 
