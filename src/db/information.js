@@ -296,7 +296,7 @@ export const skillsInformation = {
         {
           id: "libraries-bootstrap",
           name: "bootstrap",
-          icon: "./laravel.png"
+          icon: "./bootstrap.png"
         },
         {
           id: "libraries-react",
