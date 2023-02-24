@@ -68,6 +68,16 @@ const translations = {
     "lbl-database": "Database",
     "lbl-goodPractice": "Good practice",
     "lbl-deploy": "Deploy",
+    "lbl-videogame-description-short": "This is my degree project, which consisted of developing a videogame for the correct prevention and care of covid-19 for mobile devices.",
+    "lbl-videogame-description": "My friend and I developed this video game as a degree project to graduate as systems engineers. The idea for this project arose due to the high growth of covid 19 infections and because people do not take care of themselves properly, so we developed a simulation video game in which it shows the player what is the correct prevention and care against the covid-19 virus. This video game can be run on Android devices.",
+    "lbl-portafolio-description":"I developed this web page with the intention of making myself known as a professional and exposing the projects I have carried out and my academic training. I also expose my skills with frontend development using react.",
+    "lbl-portafolio-description-short":"This is my portfolio in which I expose my skills, projects, academic training and my experience.",
+    "lbl-giftexpert-description":"This application is one of the projects that I carried out in the react course in which they make use of an API that exposes gifts. It has an input in which it allows to enter a text to later carry out the search of gifts, this search only returns 10 results.",
+    "lbl-giftexpert-description-short":"This application allows you to search for gifts using the GIPHY API.",
+    "lbl-apigithub-description": "This program makes use of the GitHub public api which exposes the registered users of the platform and their information. This program has an input in which one can enter the username of the GitHub account and it shows in a table the first 10 users that it finds with that name. It also shows a graph of the followers of each of the consulted users. Finally, you can click on the names of the table which will open a new tab that allows you to see more information about the user.",
+    "lbl-apigithub-description-short": "Query registered users on GitHub using the public GitHub API. This program allows you to view user information such as repositories, followers, projects, among others.",
+    "lbl-tickets-description": "This project is a complete CRUD of a ticket system using php, Docker, mysql and postman. Here you can create, read, update, delete and close tickets. This is a very simple since it was a technical test, however, I share it since it is one of the projects that I have developed and I am proud of it.",
+    "lbl-tickets-description-short": "This project is a basic crud of a ticketing system which allows you to create, update, delete and read registered tickets, as well as close open tickets.",
   },
   "spanish": {
     "lbl-hello": "Hola mundo",
@@ -138,7 +148,16 @@ const translations = {
     "lbl-database": "Bases de datos",
     "lbl-goodPractice": "Buenas practicas",
     "lbl-deploy": "Despliques",
-    "lbl-videogame-description-short": "Este es mi proyecto de grado, el cual consistía en desarrollar un videojuego para la correcta prevención y cuidado del covid-19 para dispositivos móviles."
+    "lbl-videogame-description-short": "Este es mi proyecto de grado, el cual consistía en desarrollar un videojuego para la correcta prevención y cuidado del covid-19 para dispositivos móviles.",
+    "lbl-videogame-description": "Mi amigo y yo desarrollamos este videojuego como proyecto de grado para graduarnos como ingenieros de sistemas. La idea de este proyecto surgió debido al alto crecimiento de contagios de covid 19 y el porque las personas no se cuidan adecuadamente, por lo que desarrollamos un videojuego de simulación en el cual le muestre al jugador cual es la correcta prevención y cuidado contra el virus covid-19. Este videojuego se puede ejecutar en dispositivos Android.",
+    "lbl-portafolio-description":"Esta pagina web la desarrolle con la intención de darme a conocer como profesional y exponer los proyectos que he realizado y mi formación académica. También expongo mis habilidades con el desarrollo frontend haciendo uso de react.",
+    "lbl-portafolio-description-short":"Este es mi portafolio en el cual expongo mis habilidades, proyectos, formación académica y mi experiencia.",
+    "lbl-giftexpert-description":"Esta aplicación es uno de los proyectos que realice en el curso de react en el cual hacen uso de una API que expone gifts. Tiene un input en el cual permite ingresar un texto para luego realizar la búsqueda de gifts, esta búsqueda solo devuelve 10 resultados.",
+    "lbl-giftexpert-description-short":"Esta aplicación permite realizar búsquedas de gifts haciendo uso de la API de GIPHY.",
+    "lbl-apigithub-description": "Este programa hace uso del api publica de GitHub la cual expone los usuarios registrados en la plataforma y su información. Este programa tiene un input el cual uno puede ingresar el nombre de usuario de la cuenta de GitHub y muestra en una tabla los primeros 10 usuarios que encuentre con ese nombre. También muestra una grafica de los seguidores de cada uno de los usuarios consultados. Por último, se puede hacer click sobre los nombres de la tabla la cual abrirá una nueva pestaña que permite ver más información del usuario.",
+    "lbl-apigithub-description-short": "Consulta de usuarios registrados en GitHub haciendo uso de la API publica de GitHub. Este programa permite ver la información del usuario como repositorios, seguidores, proyectos, entre otros.",
+    "lbl-tickets-description": "Este proyecto es un CRUD completo de un sistema de tickets haciendo uso de php, Docker, mysql y postman. Aquí tu puedes crear, leer, actualizar, eliminar y cerrar tickets. Este es un programa muy sencillo ya que era una prueba técnica, sin embargo, la comparto ya que es uno de los proyectos que he desarrollado y estoy orgulloso de él.",
+    "lbl-tickets-description-short": "Este proyecto es un crud básico de un sistema de tickets el cual permite crear, actualizar, borrar y leer los tickets registrados, además de cerrar los tickets que estén abiertos.",
   }
 }
 

@@ -322,6 +322,11 @@ export const skillsInformation = {
           id: "libraries-socketio",
           name: "socketio",
           icon: "./socketio.png"
+        },
+        {
+          id: "libraries-axios",
+          name: "axios",
+          icon: "./axios.png"
         }
       ]
     },
@@ -365,6 +370,11 @@ export const skillsInformation = {
           id: "tools-phpstorm",
           name: "phpstorm",
           icon: "./phpstorm.png"
+        },
+        {
+          id: "tools-postman",
+          name: "postman",
+          icon: "./postman.png"
         },
         {
           id: "tools-docker",
@@ -481,6 +491,11 @@ export const skillsInformation = {
           icon: "./railway.png"
         },
         {
+          id: "deploy-netlify",
+          name: "netlify",
+          icon: "./netlify.png"
+        },
+        {
           id: "deploy-aws",
           name: "aws web service",
           icon: "./aws.png"
@@ -559,40 +574,39 @@ export const skillsInformation = {
 
 export const projectsInformation = [
   {
-    description: "lbl-videogame-description",
-    id: "project-videogame",
-    image: "./videogame.png",
-    integrants: [
-      "Miguel Orjuela",
-      "Ivan Guerra"
-    ],
-    link: "https://drive.google.com/file/d/18yPyNLs9VqsNjaeJhtMsmHDpcoMo1buM/view",
-    name: "16-pixels of care",
-    repository: "https://github.com/ivanchuelo14/Proyecto_Grado_Covid_Videogame",
+    description: "lbl-portafolio-description",
+    id: "project-portafolio",
+    image: "./portafolio.png",
+    link: "#",
+    name: "Portafolio",
+    repository: "https://github.com/orjuela45/Portafolio",
     tags: [
-      "project grade",
-      "university",
-      "videogame",
+      "Portafolio",
+      "Frontend"
     ],
     technologies: [
       {
-        name: "c-sharp",
-        icon: "./c-sharp.png"
+        name: "html",
+        icon: "./html.png"
       },
       {
-        name: "github",
-        icon: "./github.png"
+        name: "css",
+        icon: "./css.png"
       },
       {
-        name: "c-jira",
-        icon: "./jira.png"
+        name: "js",
+        icon: "./js.png"
       },
       {
-        name: "unity",
-        icon: "./unity.png"
+        name: "react",
+        icon: "./react.png"
+      },
+      {
+        name: "bootstrap",
+        icon: "./bootstrap.png"
       },
     ],
-    shortDescription: "lbl-videogame-description-short"
+    shortDescription: "lbl-portafolio-description-short"
   },
   {
     description: "lbl-videogame-description",
@@ -620,7 +634,7 @@ export const projectsInformation = [
         icon: "./github.png"
       },
       {
-        name: "c-jira",
+        name: "jira",
         icon: "./jira.png"
       },
       {
@@ -631,75 +645,101 @@ export const projectsInformation = [
     shortDescription: "lbl-videogame-description-short"
   },
   {
-    description: "lbl-videogame-description",
-    id: "project-videogame",
-    image: "./videogame.png",
-    integrants: [
-      "Miguel Orjuela",
-      "Ivan Guerra"
-    ],
-    link: "https://drive.google.com/file/d/18yPyNLs9VqsNjaeJhtMsmHDpcoMo1buM/view",
-    name: "16-pixels of care",
-    repository: "https://github.com/ivanchuelo14/Proyecto_Grado_Covid_Videogame",
+    description: "lbl-giftexpert-description",
+    id: "project-giftexpert",
+    image: "./giftexpert-project.png",
+    link: "https://gif-expert-copete.netlify.app",
+    name: "Gift Expert",
+    repository: "https://github.com/orjuela45/04-gif-expert-app",
     tags: [
-      "project grade",
-      "university",
-      "videogame",
+      "API",
+      "Frontend"
     ],
     technologies: [
       {
-        name: "c-sharp",
-        icon: "./c-sharp.png"
+        name: "html",
+        icon: "./html.png"
       },
       {
-        name: "github",
-        icon: "./github.png"
+        name: "css",
+        icon: "./css.png"
       },
       {
-        name: "c-jira",
-        icon: "./jira.png"
+        name: "js",
+        icon: "./js.png"
       },
       {
-        name: "unity",
-        icon: "./unity.png"
+        name: "react",
+        icon: "./react.png"
+      },
+      {
+        name: "axios",
+        icon: "./axios.png"
       },
     ],
-    shortDescription: "lbl-videogame-description-short"
+    shortDescription: "lbl-giftexpert-description-short"
   },
   {
-    description: "lbl-videogame-description",
-    id: "project-videogame",
-    image: "./videogame.png",
-    integrants: [
-      "Miguel Orjuela",
-      "Ivan Guerra"
-    ],
-    link: "https://drive.google.com/file/d/18yPyNLs9VqsNjaeJhtMsmHDpcoMo1buM/view",
-    name: "16-pixels of care",
-    repository: "https://github.com/ivanchuelo14/Proyecto_Grado_Covid_Videogame",
+    description: "lbl-apigithub-description",
+    id: "project-apigithub",
+    image: "./apigithubproject.jpg",
+    name: "API Github",
+    repository: "https://github.com/orjuela45/Double-V-partners",
     tags: [
-      "project grade",
-      "university",
-      "videogame",
+      "API",
+      "Frontend",
+      "Github",
     ],
     technologies: [
       {
-        name: "c-sharp",
-        icon: "./c-sharp.png"
+        name: "html",
+        icon: "./html.png"
       },
       {
-        name: "github",
-        icon: "./github.png"
+        name: "css",
+        icon: "./css.png"
       },
       {
-        name: "c-jira",
-        icon: "./jira.png"
+        name: "js",
+        icon: "./js.png"
       },
       {
-        name: "unity",
-        icon: "./unity.png"
+        name: "bootstrap",
+        icon: "./bootstrap.png"
       },
     ],
-    shortDescription: "lbl-videogame-description-short"
-  }
+    shortDescription: "lbl-apigithub-description-short"
+  },
+  {
+    description: "lbl-tickets-description",
+    id: "project-tickets",
+    image: "./tickets-project.png",
+    link: "https://documenter.getpostman.com/view/5695480/2s935uG13e",
+    name: "Tickets CRUD",
+    repository: "https://github.com/orjuela45/Double-V-partners",
+    tags: [
+      "API",
+      "Backend",
+      "CRUD",
+    ],
+    technologies: [
+      {
+        name: "mysql",
+        icon: "./mysql.png"
+      },
+      {
+        name: "docker",
+        icon: "./docker.png"
+      },
+      {
+        name: "postman",
+        icon: "./postman.png"
+      },
+      {
+        name: "php",
+        icon: "./php.png"
+      },
+    ],
+    shortDescription: "lbl-tickets-description-short"
+  },  
 ]

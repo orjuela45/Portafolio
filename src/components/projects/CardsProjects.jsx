@@ -28,7 +28,7 @@ export const CardsProjects = ({projects}) => {
     <>
       {
         projects.map(({image, name, tags, shortDescription, id}) => 
-          <motion.div {...animation} className='card m-3 col-auto m-4 p-0' key={id}>
+          <motion.div {...animation} className='card m-3 col-10 m-4 p-0' key={id}>
             <Image url={image} className={"card-img-top"} alt={name} />
             <div className="card-body">
               <h5 className="card-title text-uppercase">{name}</h5>
