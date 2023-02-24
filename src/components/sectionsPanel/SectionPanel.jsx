@@ -16,7 +16,7 @@ export const SectionPanel = () => {
       <SectionSchema id={"academicSection"} col={"col-12 col-xxl-6"}>
         <AcademicFormationAndExperienceSection />
       </SectionSchema>
-      <SectionSchema id={"projectsSection"} col={"col-12 col-xxl-auto"}>
+      <SectionSchema id={"projectsSection"} col={"col-12 col-xxl-4"}>
         <ProjectsSection />
       </SectionSchema>
     </div>
