@@ -13,10 +13,10 @@ export const SectionPanel = () => {
       <SectionSchema id={"skillsSection"} col={"col-12 col-xxl-6"} >
         <SkillsSection />
       </SectionSchema>
-      <SectionSchema id={"academicSection"}>
+      <SectionSchema id={"academicSection"} col={"col-12 col-xxl-6"}>
         <AcademicFormationAndExperienceSection />
       </SectionSchema>
-      <SectionSchema id={"projectsSection"} col={"col-auto"}>
+      <SectionSchema id={"projectsSection"} col={"col-12 col-xxl-auto"}>
         <ProjectsSection />
       </SectionSchema>
     </div>
