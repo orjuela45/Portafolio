@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { Image } from "../imagesComponent/Image";
 import { LanguageContent } from "../language/LanguageContent";
-import { ProjectModal } from "../modals/projectModal";
+import { ProjectModal } from "../modals/ProjectModal";
 
 const animation = {
   whileHover: { 
