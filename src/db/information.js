@@ -601,7 +601,7 @@ export const projectsInformation = [
     description: "lbl-portafolio-description",
     id: "project-portafolio",
     image: "./portafolio.png",
-    link: "#",
+    link: "https://miguel-angel-orjuela-riano.netlify.app",
     name: "Portafolio",
     repository: "https://github.com/orjuela45/Portafolio",
     integrants: ["Miguel Orjuela"], 
