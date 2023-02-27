@@ -3,6 +3,7 @@ import { BiographySection } from "../biography/BiographySection"
 import { ProjectsSection } from "../projects/ProjectsSection"
 import { SkillsSection } from "../skills/SkillsSection"
 import { SectionSchema } from "./SectionSchema"
+import { ContactMeSection } from "../contactMe/ContactMeSection"
 
 export const SectionPanel = () => {
   return (
@@ -18,6 +19,9 @@ export const SectionPanel = () => {
       </SectionSchema>
       <SectionSchema id={"projectsSection"} col={"col-12 col-xxl-4"}>
         <ProjectsSection />
+      </SectionSchema>
+      <SectionSchema id={"contactMeSection"} col={"col-12 col-xxl-10"}>
+        <ContactMeSection />
       </SectionSchema>
     </div>
   )

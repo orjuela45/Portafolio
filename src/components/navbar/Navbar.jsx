@@ -27,7 +27,7 @@ const listNabvar = [
   {
     name: "contactInformation",
     label: "lbl-contactInformation",
-    redirect: "ultima",
+    redirect: "contactMeSection",
   },
   {
     name: "cv",
