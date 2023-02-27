@@ -32,7 +32,8 @@ const listNabvar = [
   {
     name: "cv",
     label: "lbl-cv",
-    redirect: "section1",
+    redirect: "https://drive.google.com/file/d/1pBFGLzplcSpznlsHsYJwGpkDTJmrswfV/view?usp=share_link",
+    external: true
   },
 ];
 
