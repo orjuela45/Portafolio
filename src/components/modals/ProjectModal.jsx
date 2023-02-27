@@ -1,4 +1,4 @@
-import { Image } from "../images/Image";
+import { Image } from "../imagesComponent/Image";
 import { LanguageContent } from "../language/LanguageContent";
 
 export const ProjectModal = ({information}) => {

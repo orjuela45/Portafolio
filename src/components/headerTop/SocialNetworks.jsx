@@ -1,4 +1,4 @@
-import { Image } from "../images/Image";
+import { Image } from "../imagesComponent/Image";
 
 const socialNetworks = [
   {

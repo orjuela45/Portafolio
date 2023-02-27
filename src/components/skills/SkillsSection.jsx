@@ -1,5 +1,5 @@
 import { skillsInformation } from "../../db/information";
-import { Image } from "../images/Image";
+import { Image } from "../imagesComponent/Image";
 import { LanguageContent } from "../language/LanguageContent";
 import { NavTabs } from "./NavTabs";
 

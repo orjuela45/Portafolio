@@ -1,6 +1,6 @@
 import { motion } from "framer-motion"
 
-import { Image } from "../Images/Image"
+import { Image } from "../imagesComponent/Image"
 import { Presentation } from "./Presentation"
 
 const urlImage  = '/perfil.jpeg'

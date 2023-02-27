@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Image } from "../images/Image";
+import { Image } from "../imagesComponent/Image";
 import { LanguageContent } from "../language/LanguageContent";
 import { ProjectModal } from "../modals/projectModal";
 
