@@ -580,6 +580,7 @@ export const projectsInformation = [
     link: "#",
     name: "Portafolio",
     repository: "https://github.com/orjuela45/Portafolio",
+    integrants: ["Miguel Orjuela"], 
     tags: [
       "Portafolio",
       "Frontend"
@@ -599,7 +600,7 @@ export const projectsInformation = [
       },
       {
         name: "react",
-        icon: "./react.png"
+        icon: "./react-native.png"
       },
       {
         name: "bootstrap",
@@ -619,6 +620,7 @@ export const projectsInformation = [
     link: "https://drive.google.com/file/d/18yPyNLs9VqsNjaeJhtMsmHDpcoMo1buM/view",
     name: "16-pixels of care",
     repository: "https://github.com/ivanchuelo14/Proyecto_Grado_Covid_Videogame",
+    integrants: ["Miguel Orjuela"], 
     tags: [
       "project grade",
       "university",
@@ -651,6 +653,7 @@ export const projectsInformation = [
     link: "https://gif-expert-copete.netlify.app",
     name: "Gift Expert",
     repository: "https://github.com/orjuela45/04-gif-expert-app",
+    integrants: ["Miguel Orjuela"], 
     tags: [
       "API",
       "Frontend"
@@ -670,7 +673,7 @@ export const projectsInformation = [
       },
       {
         name: "react",
-        icon: "./react.png"
+        icon: "./react-native.png"
       },
       {
         name: "axios",
@@ -685,6 +688,7 @@ export const projectsInformation = [
     image: "./apigithubproject.jpg",
     name: "API Github",
     repository: "https://github.com/orjuela45/Double-V-partners",
+    integrants: ["Miguel Orjuela"], 
     tags: [
       "API",
       "Frontend",
@@ -717,6 +721,7 @@ export const projectsInformation = [
     link: "https://documenter.getpostman.com/view/5695480/2s935uG13e",
     name: "Tickets CRUD",
     repository: "https://github.com/orjuela45/Double-V-partners",
+    integrants: ["Miguel Orjuela"], 
     tags: [
       "API",
       "Backend",

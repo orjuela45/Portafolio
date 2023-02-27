@@ -36,7 +36,7 @@ export const TopPageButton = () => {
   return (
     <>
       {
-        backToTop && <motion.a className="fixed-bottom text-end m-3" onClick={() => animateScroll.scrollToTop({duration: 600})} {...animation}><Image {...imageInfo} /></motion.a>
+        backToTop && <motion.a className="fixed-bottom text-end m-3" {...animation}><span onClick={() => animateScroll.scrollToTop({duration: 600})}><Image {...imageInfo} /></span></motion.a>
       }
     </>
   )

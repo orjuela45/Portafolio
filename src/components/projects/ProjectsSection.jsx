@@ -2,8 +2,6 @@ import { LanguageContent } from "../language/LanguageContent"
 import { CardsProjects } from "./cardsProjects"
 import { projectsInformation } from "../../db/information"
 
-console.log(projectsInformation)
-
 export const ProjectsSection = () => {
   return (
     <>

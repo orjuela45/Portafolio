@@ -78,6 +78,9 @@ const translations = {
     "lbl-apigithub-description-short": "Query registered users on GitHub using the public GitHub API. This program allows you to view user information such as repositories, followers, projects, among others.",
     "lbl-tickets-description": "This project is a complete CRUD of a ticket system using php, Docker, mysql and postman. Here you can create, read, update, delete and close tickets. This is a very simple since it was a technical test, however, I share it since it is one of the projects that I have developed and I am proud of it.",
     "lbl-tickets-description-short": "This project is a basic crud of a ticketing system which allows you to create, update, delete and read registered tickets, as well as close open tickets.",
+    "lbl-descriptionModal": "Description",
+    "lbl-links": "Links",
+    "lbl-technologies": "Technologies",
   },
   "spanish": {
     "lbl-hello": "Hola mundo",
@@ -158,6 +161,9 @@ const translations = {
     "lbl-apigithub-description-short": "Consulta de usuarios registrados en GitHub haciendo uso de la API publica de GitHub. Este programa permite ver la información del usuario como repositorios, seguidores, proyectos, entre otros.",
     "lbl-tickets-description": "Este proyecto es un CRUD completo de un sistema de tickets haciendo uso de php, Docker, mysql y postman. Aquí tu puedes crear, leer, actualizar, eliminar y cerrar tickets. Este es un programa muy sencillo ya que era una prueba técnica, sin embargo, la comparto ya que es uno de los proyectos que he desarrollado y estoy orgulloso de él.",
     "lbl-tickets-description-short": "Este proyecto es un crud básico de un sistema de tickets el cual permite crear, actualizar, borrar y leer los tickets registrados, además de cerrar los tickets que estén abiertos.",
+    "lbl-descriptionModal": "Descripción",
+    "lbl-links": "Links",
+    "lbl-technologies": "Tecnologías",
   }
 }
 
