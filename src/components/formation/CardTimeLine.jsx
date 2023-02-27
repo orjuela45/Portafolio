@@ -27,7 +27,7 @@ export const CardTimeLine = ({info}) => {
       key={`timeline-${title}-${subtitle}`}
       className={`col-auto`}
       iconClassName="bg-dark"
-
+      dateClassName='text-secondary'
       date={date}
     >
       <h3 className="text-uppercase">{simpleTranslation(title)}</h3>
