@@ -124,6 +124,18 @@ export const academicAndExperienceInformation = [
     icon: "./clickonplans.png",
   },
   {
+    type: "education",
+    title: "lbl-englishA2",
+    subtitle: "Praxis School",
+    description: "lbl-englishA2-description",
+    images: [],
+    dates: {
+      yearInit: "2021",
+      monthInit: "lbl-december",
+    },
+    icon: "./praxis.webp",
+  },
+  {
     type: "work",
     title: "lbl-fullstackRol-title",
     subtitle: "Metabiblioteca",
@@ -175,6 +187,18 @@ export const academicAndExperienceInformation = [
       monthFinish: "lbl-june",
     },
     icon: "./talent.png",
+  },
+  {
+    type: "education",
+    title: "lbl-englishB1",
+    subtitle: "Praxis School",
+    description: "lbl-englishB1-description",
+    images: [],
+    dates: {
+      yearInit: "2022",
+      monthInit: "lbl-june",
+    },
+    icon: "./praxis.webp",
   },
   {
     type: "education",

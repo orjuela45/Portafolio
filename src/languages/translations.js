@@ -81,6 +81,10 @@ const translations = {
     "lbl-descriptionModal": "Description",
     "lbl-links": "Links",
     "lbl-technologies": "Technologies",
+    "lbl-englishA2": "English A2 certificate",
+    "lbl-englishA2-description": "Certifies that I have a English A2 level.",
+    "lbl-englishB1": "English B1 certificate",
+    "lbl-englishB1-description": "Certifies that I have a English B1 level.",
   },
   "spanish": {
     "lbl-hello": "Hola mundo",
@@ -164,6 +168,10 @@ const translations = {
     "lbl-descriptionModal": "Descripción",
     "lbl-links": "Links",
     "lbl-technologies": "Tecnologías",
+    "lbl-englishA2": "Certificado ingles A2",
+    "lbl-englishA2-description": "Certifica que tengo un nivel A2 en el idioma ingles.",
+    "lbl-englishB1": "Certificado ingles B1",
+    "lbl-englishB1-description": "Certifica que tengo un nivel B1 en el idioma ingles.",
   }
 }
 
