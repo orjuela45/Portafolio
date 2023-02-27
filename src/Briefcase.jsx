@@ -4,7 +4,7 @@ import { TopPageButton } from "./components/buttons/TopPageButton";
 import { Footer } from "./components/footer/Footer";
 
 import { HeaderTop } from "./components/headerTop/HeaderTop";
-import { Navbar } from "./components/navbar/NavBar";
+import { Navbar } from "./components/navbar/Navbar";
 import { SectionPanel } from "./components/sectionsPanel/SectionPanel";
 import { WelcomePanel } from "./components/welcomePanel/WelcomePanel";
 
