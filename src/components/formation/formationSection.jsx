@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { VerticalTimeline} from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 
@@ -6,7 +5,7 @@ import { LanguageContent } from "../language/LanguageContent";
 import { CardTimeLine } from "./CardTimeLine";
 import { academicAndExperienceInformation as timeLineInfo } from "../../db/information";
 
-export const AcademicFormationAndExperienceSection = () => {
+export const FormationSection = () => {
 
   return (
     <div>

@@ -1,4 +1,4 @@
-import { AcademicFormationAndExperienceSection } from "../academicFormationAndExperience/AcademicFormationAndExperienceSection"
+import { FormationSection } from "../formation/formationSection"
 import { BiographySection } from "../biography/BiographySection"
 import { ProjectsSection } from "../projects/ProjectsSection"
 import { SkillsSection } from "../skills/SkillsSection"
@@ -14,7 +14,7 @@ export const SectionPanel = () => {
         <SkillsSection />
       </SectionSchema>
       <SectionSchema id={"academicSection"} col={"col-12 col-xxl-6"}>
-        <AcademicFormationAndExperienceSection />
+        <FormationSection />
       </SectionSchema>
       <SectionSchema id={"projectsSection"} col={"col-12 col-xxl-4"}>
         <ProjectsSection />
