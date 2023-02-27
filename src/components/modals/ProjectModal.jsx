@@ -2,7 +2,6 @@ import { Image } from "../images/Image";
 import { LanguageContent } from "../language/LanguageContent";
 
 export const ProjectModal = ({information}) => {
-  console.log(information)
   return (
     <>
     <div className="modal fade" id={`${information.id}-modal`} tabIndex={"-1"} aria-labelledby={`${information.id}-label`} aria-hidden="true">

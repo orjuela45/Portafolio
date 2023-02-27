@@ -1,5 +1,5 @@
 import { LanguageContent } from "../language/LanguageContent"
-import { CardsProjects } from "./cardsProjects"
+import { CardsProjects } from "./CardsProjects"
 import { projectsInformation } from "../../db/information"
 
 export const ProjectsSection = () => {
