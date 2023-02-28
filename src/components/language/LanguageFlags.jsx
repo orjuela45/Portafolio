@@ -23,7 +23,7 @@ export const LanguageFlags = () => {
       <div className="row"> 
       {
         languagesInfo.map((language) => 
-          <a key={language.language} onClick={() => toggleLanguage(language.language)} className="col-auto">
+          <a key={language.language} onClick={() => toggleLanguage(language.language)} className="col-auto" style={{cursor: "pointer"}}>
             <Image key="flag-spanish" url={language.image} alt={language.alt} width={"30px"} />
           </a> 
         )

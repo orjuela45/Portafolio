@@ -133,7 +133,7 @@ export const academicAndExperienceInformation = [
       yearInit: "2021",
       monthInit: "lbl-december",
     },
-    icon: "./praxis.webp",
+    icon: "./praxis.png",
   },
   {
     type: "work",
