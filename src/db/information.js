@@ -181,10 +181,10 @@ export const academicAndExperienceInformation = [
       "./jira.png",
     ],
     dates: {
-      yearInit: "2021",
-      monthInit: "lbl-august",
-      yearFinish: "2022",
-      monthFinish: "lbl-june",
+      yearInit: "2022",
+      monthInit: "lbl-july",
+      yearFinish: "2023",
+      monthFinish: "lbl-february",
     },
     icon: "./talent.png",
   },
@@ -198,7 +198,7 @@ export const academicAndExperienceInformation = [
       yearInit: "2022",
       monthInit: "lbl-june",
     },
-    icon: "./praxis.webp",
+    icon: "./praxis.png",
   },
   {
     type: "education",
