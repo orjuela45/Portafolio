@@ -32,7 +32,7 @@ const listNabvar = [
   {
     name: "cv",
     label: "lbl-cv",
-    redirect: "https://drive.google.com/file/d/1nMh2c3k4SUGHo5t6iv2OEbH0HJUUileO/view?usp=share_link",
+    redirect: "https://drive.google.com/file/d/1s0wdwd2KJ4Auws6VuuHeZW8OjsfdFJVZ/view?usp=sharing",
     external: true
   },
 ];
