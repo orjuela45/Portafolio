@@ -97,6 +97,7 @@ const translations = {
     "lbl-emailSend-text": "Your email has been sent, I will answer you soon :D",
     "lbl-emailError-title": "Failed to send mail",
     "lbl-emailErrror-text": "It cannot send the email, please contact me by miguel.orjuela45@gmail.com",
+    "lbl-stack": "Stacks"
   },
   "spanish": {
     "lbl-hello": "Hola mundo",
@@ -196,6 +197,7 @@ const translations = {
     "lbl-emailSend-text": "Tu correo ha sido enviado, pronto te respondere :D",
     "lbl-emailError-title": "Error al enviar correo",
     "lbl-emailErrror-text": "No se puedo enviar el correo, por favor contactate conmigo por miguel.orjuela45@gmail.com",
+    "lbl-stack": "Stacks"
   }
 }
 

@@ -312,6 +312,24 @@ export const skillsInformation = {
       ]
     },
     {
+      id: "tab-professionalSkills-stack",
+      label: "lbl-stack",
+      target: "professionalSkills-stack",
+      selected: false,
+      items: [
+        {
+          id: "stack-mern",
+          name: "mern (mongo, express, react & nodejs)",
+          icon: "./mern.png"
+        },
+        {
+          id: "stack-lamp",
+          name: "lamp (linux, apache, mysql & php)",
+          icon: "./lamp.png"
+        }
+      ]
+    },
+    {
       id: "tab-professionalSkills-libraries",
       label: "lbl-libraries",
       target: "professionalSkills-libraries",
