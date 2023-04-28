@@ -14,7 +14,7 @@ export const FormationSection = () => {
         {
           timeLineInfo.map(info => {
             return <CardTimeLine key={`card-timeline-${info.title}-${info.subtitle}`} info={info} />
-          })
+          }).reverse()
         }
       </VerticalTimeline>
     </div>
