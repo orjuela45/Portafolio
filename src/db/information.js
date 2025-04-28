@@ -236,6 +236,54 @@ export const academicAndExperienceInformation = [
     },
     icon: "./udemy.png",
   },
+  {
+    type: "work",
+    title: "lbl-technicalLead-title",
+    subtitle: "Christus sinergia",
+    description: "lbl-christus-description",
+    images: [
+      "./svelte.png",
+      "./nodejs.png",
+      "./ts.png",
+      "./linux.png",
+      "./sqlserver.png",
+      "./gitea.png",
+      "./clickup.png",
+      "./php.png",
+    ],
+    dates: {
+      yearInit: "2023",
+      monthInit: "lbl-may",
+      yearFinish: "2025",
+      monthFinish: "lbl-current",
+    },
+    icon: "./christus.png",
+  },
+  {
+    type: "work",
+    title: "lbl-backendDeveloper-title",
+    subtitle: "Periferia - El Tiempo",
+    description: "lbl-periferia-description",
+    images: [
+      "./php.png",
+      "./symfony.png",
+      "./mysql.png",
+      "./linux.png",
+      "./github.png",
+      "./jira.png",
+      "./docker.png",
+      "./react-native.png",
+      "./drupal.png",
+      "./vuejs.png"
+    ],
+    dates: {
+      yearInit: "2023",
+      monthInit: "lbl-august",
+      yearFinish: "2024",
+      monthFinish: "lbl-december",
+    },
+    icon: "./el-tiempo.png",
+  },
 ]
 
 export const skillsInformation = {
@@ -277,9 +325,9 @@ export const skillsInformation = {
           icon: "./c-sharp.png"
         },
         {
-          id: "programming-java",
-          name: "java",
-          icon: "./java.png"
+          id: "programming-svelte",
+          name: "svelte",
+          icon: "./svelte.png"
         }
       ]
     },
@@ -308,6 +356,11 @@ export const skillsInformation = {
           id: "frameworks-vuejs",
           name: "vuejs",
           icon: "./vuejs.png"
+        },
+        {
+          id: "frameworks-svelte",
+          name: "sveltekit",
+          icon: "./svelte.png"
         }
       ]
     },
@@ -326,6 +379,11 @@ export const skillsInformation = {
           id: "stack-lamp",
           name: "lamp (linux, apache, mysql & php)",
           icon: "./lamp.png"
+        },
+        {
+          id: "stack-svelte",
+          name: "sveltekit + nodejs",
+          icon: "./svelte.png"
         }
       ]
     },
@@ -369,6 +427,16 @@ export const skillsInformation = {
           id: "libraries-axios",
           name: "axios",
           icon: "./axios.png"
+        },
+        {
+          id: "libraries-tailwind",
+          name: "tailwind",
+          icon: "./tailwind.png"
+        },
+        {
+          id: "libraries-skeleton",
+          name: "skeleton",
+          icon: "./skeleton.png"
         }
       ]
     },
@@ -409,9 +477,14 @@ export const skillsInformation = {
           icon: "./vscode.png"
         },
         {
-          id: "tools-phpstorm",
-          name: "phpstorm",
-          icon: "./phpstorm.png"
+          id: "tools-cursor",
+          name: "cursor",
+          icon: "./cursor.png"
+        },
+        {
+          id: "tools-clickup",
+          name: "clickup",
+          icon: "./clickup.png"
         },
         {
           id: "tools-postman",

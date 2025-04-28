@@ -23,6 +23,7 @@ const translations = {
     "lbl-october": "October",
     "lbl-november": "November",
     "lbl-december": "December",
+    "lbl-current": "Current",
     "lbl-javaCertificate-title": "Fundamentals Java Certificate",
     "lbl-javaCertificate-description": "Certifies that I participate in the fundamentals of java offered by Universidad libre",
     "lbl-ethicalHacking-title": "Ethical Hacking Certificate",
@@ -97,7 +98,10 @@ const translations = {
     "lbl-emailSend-text": "Your email has been sent, I will answer you soon :D",
     "lbl-emailError-title": "Failed to send mail",
     "lbl-emailErrror-text": "It cannot send the email, please contact me by miguel.orjuela45@gmail.com",
-    "lbl-stack": "Stacks"
+    "lbl-stack": "Stacks",
+    "lbl-technicalLead-title": "Technical Lead",
+    "lbl-christus-description": "I perform tasks as a technical lead of development, I manage projects and assign tasks to my team, also I am responsible for the deployments of the different applications.",
+    "lbl-periferia-description": "I participated in the update of the Xalog cms that the portal uses and also in the redesign of the ELTIEMPO page, I also participated in the start of the MOTOR migration."
   },
   "spanish": {
     "lbl-hello": "Hola mundo",
@@ -123,6 +127,7 @@ const translations = {
     "lbl-october": "Octubre",
     "lbl-november": "Noviembre",
     "lbl-december": "Diciembre",
+    "lbl-current": "Actual",
     "lbl-javaCertificate-title": "Certificado 'Fundamentos java'",
     "lbl-javaCertificate-description": "Certifica que participe en los fundamentos de java que ofrecía la universidad libre",
     "lbl-ethicalHacking-title": "Certificado 'Ethical Hacking'",
@@ -197,7 +202,10 @@ const translations = {
     "lbl-emailSend-text": "Tu correo ha sido enviado, pronto te respondere :D",
     "lbl-emailError-title": "Error al enviar correo",
     "lbl-emailErrror-text": "No se puedo enviar el correo, por favor contactate conmigo por miguel.orjuela45@gmail.com",
-    "lbl-stack": "Stacks"
+    "lbl-stack": "Stacks",
+    "lbl-technicalLead-title": "Líder técnico",
+    "lbl-christus-description": "Realizo Labores como líder técnico de desarrollo, gestiono los proyectos y asigno las tareas a mi equipo, también me encargo de los despliegues de los diferentes aplicativos.",
+    "lbl-periferia-description": "Participe en la actualización del cms Xalog que usa el portal y también en el rediseño de la pagina ELTIEMPO, tambien participe en el inicio de migracion de MOTOR."
   }
 }
 
