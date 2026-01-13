@@ -5,7 +5,7 @@ export const ProjectModal = ({information}) => {
   return (
     <>
     <div className="modal fade" id={`${information.id}-modal`} tabIndex={"-1"} aria-labelledby={`${information.id}-label`} aria-hidden="true">
-      <div className="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+      <div className="modal-dialog modal-md modal-dialog-centered modal-dialog-scrollable">
         <div className="modal-content">
           <div className="modal-header">
             <h3 className="modal-title me-3" id={`${information.id}-label`}>{information.name}</h3>
@@ -16,9 +16,22 @@ export const ProjectModal = ({information}) => {
             }
             <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
-          <div className="modal-body m-0 p-0">
+<div className="modal-body m-0 p-0">
             <div className="col-12">
-              <Image url={information.image} className={'img-fluid'} alt={information.name} width={"100%"}/>
+              <div className="project-image-container">
+                <img 
+                  src={information.image} 
+                  alt={information.name}
+                  className="img-fluid"
+                  style={{
+                    maxHeight: '260px',
+                    width: 'auto',
+                    maxWidth: '100%',
+                    objectFit: 'contain',
+                    borderRadius: '4px'
+                  }}
+                />
+              </div>
             </div>
             <div className="col-12 mt-1 p-4" style={{textAlign: "justify"}}>
               <h4 className="font-weight-bold"><LanguageContent contentID={"lbl-descriptionModal"} /></h4>

@@ -101,7 +101,8 @@ const translations = {
     "lbl-stack": "Stacks",
     "lbl-technicalLead-title": "Technical Lead",
     "lbl-christus-description": "I perform tasks as a technical lead of development, I manage projects and assign tasks to my team, also I am responsible for the deployments of the different applications.",
-    "lbl-periferia-description": "I participated in the update of the Xalog cms that the portal uses and also in the redesign of the ELTIEMPO page, I also participated in the start of the MOTOR migration."
+    "lbl-periferia-description": "I participated in the update of the Xalog cms that the portal uses and also in the redesign of the ELTIEMPO page, I also participated in the start of the MOTOR migration.",
+    "lbl-close": "Close"
   },
   "spanish": {
     "lbl-hello": "Hola mundo",
@@ -205,7 +206,8 @@ const translations = {
     "lbl-stack": "Stacks",
     "lbl-technicalLead-title": "Líder técnico",
     "lbl-christus-description": "Realizo Labores como líder técnico de desarrollo, gestiono los proyectos y asigno las tareas a mi equipo, también me encargo de los despliegues de los diferentes aplicativos.",
-    "lbl-periferia-description": "Participe en la actualización del cms Xalog que usa el portal y también en el rediseño de la pagina ELTIEMPO, tambien participe en el inicio de migracion de MOTOR."
+    "lbl-periferia-description": "Participe en la actualización del cms Xalog que usa el portal y también en el rediseño de la pagina ELTIEMPO, tambien participe en el inicio de migracion de MOTOR.",
+    "lbl-close": "Cerrar"
   }
 }
 

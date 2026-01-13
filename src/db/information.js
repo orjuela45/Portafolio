@@ -236,7 +236,7 @@ export const academicAndExperienceInformation = [
     },
     icon: "./udemy.png",
   },
-  {
+{
     type: "work",
     title: "lbl-technicalLead-title",
     subtitle: "Christus sinergia",
@@ -250,6 +250,12 @@ export const academicAndExperienceInformation = [
       "./gitea.png",
       "./clickup.png",
       "./php.png",
+    ],
+    imagesCarrousel: [
+      "./christus_evidence0.png",
+      "./christus_evidence1.png",
+      "./christus_evidence2.png",
+      "./christus_evidence3.png",
     ],
     dates: {
       yearInit: "2023",
