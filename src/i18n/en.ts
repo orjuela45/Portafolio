@@ -30,25 +30,10 @@ export const en: Locale = {
       description:
         'I installed, configured and deployed OJS on Linux servers, including dependency management, module maintenance and bug fixing. I automated server-side tasks to improve uptime and guided clients through implementing their editorial systems.',
     },
-    'exp-clickonplans': {
-      title: 'Web and Mobile Developer',
-      description:
-        'I managed documents, phases, stages, users and machinery for a construction company. I migrated the PHP version, updated a React Native mobile app, and handled deployments to AWS.',
-    },
-    'exp-laika': {
-      title: 'Full Stack Developer',
-      description:
-        'I built and maintained the logistics modules of the store: inventory, couriers, product coupons and discounts, and delivery schedules.',
-    },
     'exp-qoopa': {
       title: 'Full Stack Developer',
       description:
         'I developed forms for financial-sector clients and the credit-life calculation that decides whether a bank can grant a loan and for how much. I also built cooperative modules for loans, payroll and CDAT interest, on legacy Oracle environments.',
-    },
-    'exp-ethos': {
-      title: 'Apprentice Engineer',
-      description:
-        'I started as an apprentice building the applications cooperatives across the country needed: loan applications, payroll and interest calculation.',
     },
 
     'edu-universidad-libre': {
@@ -59,14 +44,6 @@ export const en: Locale = {
     'edu-fedesoft': {
       title: 'Full Stack Developer and Hybrid Applications',
       description: 'Full stack developer and hybrid applications course.',
-    },
-    'edu-praxis-a2': {
-      title: 'English A2 Certificate',
-      description: 'Certified A2 level in English.',
-    },
-    'edu-praxis-b1': {
-      title: 'English B1 Certificate',
-      description: 'Certified B1 level in English.',
     },
 
     'cert-solid': {

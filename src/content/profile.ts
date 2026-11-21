@@ -146,43 +146,22 @@ export const experience: readonly ExperienceEntry[] = [
     id: 'exp-talent',
     company: 'Talent.com',
     start: ym(2022, 7),
-    end: ym(2023, 2),
+    end: ym(2023, 5),
     stack: ['PHP', 'MySQL', 'RabbitMQ', 'Elasticsearch', 'Linux'],
   },
   {
     id: 'exp-metabiblioteca',
     company: 'MetaBiblioteca',
-    start: ym(2021, 8),
-    end: ym(2022, 6),
-    stack: ['PHP', 'MySQL', 'Linux', 'OJS'],
-  },
-  {
-    id: 'exp-clickonplans',
-    company: 'Clickonplans',
     start: ym(2020, 9),
-    end: ym(2021, 8),
-    stack: ['PHP', 'Python', 'MySQL', 'React Native', 'AWS', 'Linux'],
-  },
-  {
-    id: 'exp-laika',
-    company: 'Laika',
-    start: ym(2020, 7),
-    end: ym(2020, 9),
-    stack: ['PHP', 'Laravel', 'Vue', 'MySQL'],
+    end: ym(2022, 7),
+    stack: ['PHP', 'MySQL', 'Linux', 'OJS'],
   },
   {
     id: 'exp-qoopa',
     company: 'Qoopa',
-    start: ym(2019, 11),
-    end: ym(2020, 7),
-    stack: ['PHP', 'Yii2', 'MySQL'],
-  },
-  {
-    id: 'exp-ethos',
-    company: 'Ethos soluciones',
     start: ym(2019, 2),
-    end: ym(2019, 10),
-    stack: ['Java', 'Oracle'],
+    end: ym(2020, 9),
+    stack: ['PHP', 'Yii2', 'MySQL', 'Oracle'],
   },
 ];
 
@@ -198,18 +177,6 @@ export const education: readonly EducationEntry[] = [
     institution: 'Fedesoft',
     start: ym(2018, 1),
     end: ym(2018, 12),
-  },
-  {
-    id: 'edu-praxis-a2',
-    institution: 'Praxis School',
-    start: ym(2021, 12),
-    end: ym(2021, 12),
-  },
-  {
-    id: 'edu-praxis-b1',
-    institution: 'Praxis School',
-    start: ym(2022, 6),
-    end: ym(2022, 6),
   },
 ];
 

@@ -65,6 +65,35 @@ describe('profile chronology', () => {
     }
   });
 
+  it('has no two roles claiming the same months, except the declared freelance overlap', () => {
+    // Two roles can only overlap when one of them is freelance: a salaried
+    // position cannot run in parallel with another. This is what the Drive CV
+    // forced — Christus and Periferia share 16 months, and Periferia is the
+    // freelance engagement.
+    const spans = experience.map((entry) => ({
+      company: entry.company,
+      from: entry.start.year * 12 + entry.start.month,
+      to: entry.end ? entry.end.year * 12 + entry.end.month : Number.POSITIVE_INFINITY,
+      freelance: entry.freelance === true,
+    }));
+
+    for (let i = 0; i < spans.length; i += 1) {
+      for (let j = i + 1; j < spans.length; j += 1) {
+        const a = spans[i];
+        const b = spans[j];
+        if (!a || !b) continue;
+
+        const shared = Math.min(a.to, b.to) - Math.max(a.from, b.from);
+        if (shared <= 0) continue;
+
+        expect(
+          a.freelance || b.freelance,
+          `${a.company} and ${b.company} overlap for ${shared} months without either being freelance`,
+        ).toBe(true);
+      }
+    }
+  });
+
   it('uses unique ids across every collection', () => {
     const ids = [
       ...experience.map((entry) => entry.id),

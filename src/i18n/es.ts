@@ -30,25 +30,10 @@ export const es: Locale = {
       description:
         'Instalé, configuré y desplegué OJS en servidores Linux, incluyendo gestión de dependencias, mantenimiento de módulos y corrección de errores. Automaticé tareas del servidor para mejorar la disponibilidad y acompañé a los clientes en la implementación de sus sistemas editoriales.',
     },
-    'exp-clickonplans': {
-      title: 'Desarrollador web y móvil',
-      description:
-        'Gestioné documentos, fases, etapas, usuarios y maquinaria de una constructora. Hice la migración de la versión de PHP y la actualización de una aplicación móvil en React Native, y me encargué de subir los proyectos a AWS.',
-    },
-    'exp-laika': {
-      title: 'Desarrollador full stack',
-      description:
-        'Creé y mantuve los módulos de la parte logística de la tienda: inventario, repartidores, cupones y descuentos de producto, y horarios de entrega.',
-    },
     'exp-qoopa': {
       title: 'Desarrollador full stack',
       description:
         'Desarrollé formularios para clientes del sector financiero y el cálculo de vida crediticia de una persona, para determinar si el banco podía otorgar un crédito y por cuánto. También construí módulos para cooperativas: créditos, nómina e intereses de CDAT, sobre entornos legados con Oracle.',
-    },
-    'exp-ethos': {
-      title: 'Ingeniero aprendiz',
-      description:
-        'Inicié como aprendiz en el desarrollo de los aplicativos que necesitaban las cooperativas del país: solicitud de créditos, pago de nómina y cálculo de intereses.',
     },
 
     'edu-universidad-libre': {
@@ -59,14 +44,6 @@ export const es: Locale = {
     'edu-fedesoft': {
       title: 'Desarrollador Full Stack y aplicaciones híbridas',
       description: 'Curso de desarrollador full stack y aplicaciones híbridas.',
-    },
-    'edu-praxis-a2': {
-      title: 'Certificado de inglés A2',
-      description: 'Certificación de nivel A2 en el idioma inglés.',
-    },
-    'edu-praxis-b1': {
-      title: 'Certificado de inglés B1',
-      description: 'Certificación de nivel B1 en el idioma inglés.',
     },
 
     'cert-solid': {
