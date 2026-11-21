@@ -8,12 +8,13 @@ github.com/orjuela45 · linkedin.com/in/miguel-angel-orjuela-riaño-1baa40177
 
 ## Perfil
 
-AI Engineer en Illumia. Desarrollo el análisis de encuestas y audios para métricas, usando
-herramientas de IA para procesar cada uno de ellos. Construyo el full stack en Node.js y
-TypeScript que sostiene esos pipelines, sobre PostgreSQL y AWS.
+Siete años convirtiendo procesos que se hacen a mano —planillas, papeles, pasos que nadie
+recuerda— en herramientas que la gente abre sin que nadie le explique cómo. Backend en
+Node.js y TypeScript, y una interfaz que no estorba.
 
-Siete años construyendo software: desde aplicaciones para sistemas cooperativos y de nómina
-hasta el liderazgo técnico de un equipo de desarrollo y, hoy, pipelines de IA en producción.
+Trabajo con IA porque hoy es parte de cómo se construye software: le doy contexto, las
+convenciones del proyecto y lo que ya sé que no funciona, y reviso lo que devuelve con el
+mismo ojo con el que revisaría el trabajo de otra persona.
 
 ## Experiencia
 

@@ -68,5 +68,7 @@ export type Locale = {
   readonly label: string;
   readonly htmlLang: string;
   readonly entries: Readonly<Record<string, ContentText>>;
+  /** Display labels for concepts (not product names) that need translating. */
+  readonly skillLabels: Readonly<Record<string, string>>;
   readonly ui: UiStrings;
 };

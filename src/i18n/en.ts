@@ -4,6 +4,12 @@ export const en: Locale = {
   code: 'en',
   label: 'EN',
   htmlLang: 'en',
+  skillLabels: {
+    'skill-technical-leadership': 'Technical leadership',
+    'skill-clean-code': 'Clean code & SOLID',
+    'skill-code-review': 'Code review',
+    'skill-scrum': 'Scrum',
+  },
   entries: {
     'exp-illumia': {
       title: 'AI Engineer',
@@ -72,8 +78,8 @@ export const en: Locale = {
       description: 'Node.js and TypeScript as the base, with Express and NestJS per project.',
     },
     'skill-ai': {
-      title: 'Applied AI',
-      description: 'Language models and Bedrock for survey and audio analysis.',
+      title: 'AI, day to day',
+      description: 'What I actually work with, every day.',
     },
     'skill-frontend': {
       title: 'Frontend',
@@ -89,7 +95,7 @@ export const en: Locale = {
     },
     'skill-practice': {
       title: 'Practice',
-      description: 'Technical leadership, code review and clean code.',
+      description: 'How I work with other teams and what I check before calling something done.',
     },
   },
   ui: {
@@ -105,7 +111,8 @@ export const en: Locale = {
       kicker: "Hi, I'm Miguel",
       headline: 'I build software that',
       headlineAccent: 'turns data into decisions.',
-      lede: 'AI Engineer at Illumia. I work with language models to analyze surveys and audio, and I build the Node.js and TypeScript full stack that holds them up.',
+      lede:
+        'Seven years turning processes people do by hand —spreadsheets, paper, steps nobody remembers— into tools they open without anyone explaining how. Backend in Node.js and TypeScript, and an interface that stays out of the way.',
       primaryCta: 'See experience',
       secondaryCta: "Let's talk",
       tickerLabel: 'Working stack',
@@ -115,7 +122,7 @@ export const en: Locale = {
       heading: 'About me and technical stack',
       philosophyLabel: 'How I work',
       philosophy:
-        'I focus on solid backends and on leaving code readable for whoever comes next. AI interests me when it solves a concrete, measurable problem rather than as an end in itself, so I prefer shipping less surface with better foundations.',
+        'I like building things that make someone\'s day easier: an application that replaces a spreadsheet, a tool that saves a team three steps. I work with AI because it is part of how software gets built today, the way a framework used to be: I give it context, the conventions of the project and what I already know does not work, and then I review what comes back the same way I would review another person\'s work. And so I do not fall behind, I build games and small projects where I try whatever just shipped: new models, agents, tools that still have no decent documentation.',
       endToEnd: 'End-to-end stack',
       skillLevels: {
         primary: 'Primary',
@@ -140,8 +147,8 @@ export const en: Locale = {
     },
     contact: {
       eyebrow: "Let's talk",
-      heading: 'Got a problem worth solving?',
-      lede: "I work at Illumia and I'm not looking to move right now, but I'm always glad to talk about data, models and systems that have to hold up in production.",
+      heading: "Shall we build something?",
+      lede: "If you have an idea going around, a system that needs a hand, or just want to argue about how to approach a problem, this is the place. I like people who ask before assuming.",
       emailCta: 'Email me',
       linkedinCta: 'Connect on LinkedIn',
     },

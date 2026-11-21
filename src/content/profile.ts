@@ -4,6 +4,13 @@ export type Emphasis = 'primary' | 'solid' | 'working';
 
 export type Skill = {
   readonly name: string;
+  /**
+   * Set for skills that are concepts rather than product names. A product keeps
+   * its literal name in every locale (`Node.js`, `PostgreSQL`); a concept like
+   * "code review" has to be translated, so it resolves through the language
+   * layer instead of leaking English into the Spanish page.
+   */
+  readonly labelKey?: string;
   readonly emphasis: Emphasis;
 };
 
@@ -75,9 +82,9 @@ export const profile: Profile = {
       id: 'skill-ai',
       items: [
         { name: 'Claude Code', emphasis: 'primary' },
-        { name: 'AWS Bedrock', emphasis: 'primary' },
-        { name: 'LLM pipelines', emphasis: 'solid' },
-        { name: 'Audio & survey analysis', emphasis: 'solid' },
+        { name: 'Pi Agent', emphasis: 'primary' },
+        { name: 'OpenCode', emphasis: 'solid' },
+        { name: 'LLM APIs', emphasis: 'working' },
       ],
     },
     {
@@ -110,10 +117,10 @@ export const profile: Profile = {
     {
       id: 'skill-practice',
       items: [
-        { name: 'Technical leadership', emphasis: 'solid' },
-        { name: 'Clean code & SOLID', emphasis: 'solid' },
-        { name: 'Code review', emphasis: 'solid' },
-        { name: 'Scrum', emphasis: 'working' },
+        { name: 'Technical leadership', labelKey: 'skill-technical-leadership', emphasis: 'solid' },
+        { name: 'Clean code & SOLID', labelKey: 'skill-clean-code', emphasis: 'solid' },
+        { name: 'Code review', labelKey: 'skill-code-review', emphasis: 'solid' },
+        { name: 'Scrum', labelKey: 'skill-scrum', emphasis: 'working' },
       ],
     },
   ],

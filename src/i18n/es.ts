@@ -4,6 +4,12 @@ export const es: Locale = {
   code: 'es',
   label: 'ES',
   htmlLang: 'es',
+  skillLabels: {
+    'skill-technical-leadership': 'Liderazgo técnico',
+    'skill-clean-code': 'Código limpio y SOLID',
+    'skill-code-review': 'Revisión de código',
+    'skill-scrum': 'Scrum',
+  },
   entries: {
     'exp-illumia': {
       title: 'AI Engineer',
@@ -72,8 +78,8 @@ export const es: Locale = {
       description: 'Node.js y TypeScript como base, con Express y NestJS según el proyecto.',
     },
     'skill-ai': {
-      title: 'IA aplicada',
-      description: 'Modelos de lenguaje y Bedrock para análisis de encuestas y audio.',
+      title: 'IA en el día a día',
+      description: 'Con qué trabajo de verdad, todos los días.',
     },
     'skill-frontend': {
       title: 'Frontend',
@@ -89,7 +95,7 @@ export const es: Locale = {
     },
     'skill-practice': {
       title: 'Práctica',
-      description: 'Liderazgo técnico, revisión de código y código limpio.',
+      description: 'Cómo trabajo con otros equipos y qué reviso antes de dar algo por terminado.',
     },
   },
   ui: {
@@ -105,7 +111,8 @@ export const es: Locale = {
       kicker: 'Hola, soy Miguel',
       headline: 'Construyo software que',
       headlineAccent: 'convierte datos en decisiones.',
-      lede: 'AI Engineer en Illumia. Trabajo con modelos de lenguaje para analizar encuestas y audio, y construyo el full stack en Node.js y TypeScript que los sostiene.',
+      lede:
+        'Llevo siete años convirtiendo procesos que se hacen a mano —planillas, papeles, pasos que nadie recuerda— en herramientas que la gente abre sin que nadie le explique cómo. Backend en Node.js y TypeScript, y una interfaz que no estorba.',
       primaryCta: 'Ver experiencia',
       secondaryCta: 'Conversemos',
       tickerLabel: 'Stack frecuente',
@@ -115,7 +122,7 @@ export const es: Locale = {
       heading: 'Sobre mí y stack técnico',
       philosophyLabel: 'Cómo trabajo',
       philosophy:
-        'Me enfoco en backends sólidos y en dejar el código legible para quien venga después. La IA me interesa cuando resuelve un problema concreto y medible, no como fin en sí mismo, así que prefiero entregar menos superficie y mejor fundamento.',
+        'Me gusta construir cosas que le faciliten la vida a alguien: un aplicativo que reemplaza una planilla, una herramienta que le ahorra tres pasos a un equipo. Trabajo con IA porque hoy es parte de cómo se construye software, igual que antes lo fue el framework de turno: le doy contexto, las convenciones del proyecto y lo que ya sé que no funciona, y después reviso lo que devuelve con el mismo ojo con el que revisaría el trabajo de otra persona. Y para no quedarme mirando, hago videojuegos y proyectos chicos donde pruebo lo que va saliendo: modelos nuevos, agentes, herramientas que todavía no tienen documentación decente.',
       endToEnd: 'Stack de punta a punta',
       skillLevels: {
         primary: 'Principal',
@@ -140,8 +147,8 @@ export const es: Locale = {
     },
     contact: {
       eyebrow: 'Hablemos',
-      heading: '¿Tenés un problema que valga la pena resolver?',
-      lede: 'Trabajo en Illumia y no estoy buscando un cambio hoy, pero siempre me interesa conversar sobre datos, modelos y sistemas que tengan que aguantar producción.',
+      heading: '¿Armamos algo?',
+      lede: 'Si tenés una idea dando vueltas, un sistema que necesita una mano o ganas de discutir cómo encarar un problema, este es el lugar. Me gusta la gente que pregunta antes de asumir.',
       emailCta: 'Escribime',
       linkedinCta: 'Conectar en LinkedIn',
     },

@@ -139,6 +139,38 @@ describe('translations', () => {
     }
   });
 
+  it('resolves every skill labelKey in every locale', () => {
+    // Product names stay literal (`Node.js`), but a concept like "code review"
+    // must be translated. Anything declaring a labelKey has to exist in both
+    // locales, or the Spanish page silently falls back to English.
+    const labelKeys = profile.skills
+      .flatMap((group) => group.items)
+      .flatMap((item) => (item.labelKey ? [item.labelKey] : []));
+
+    expect(labelKeys.length).toBeGreaterThan(0);
+
+    for (const locale of locales) {
+      for (const key of labelKeys) {
+        const label = locale.skillLabels[key];
+        expect(label, `${locale.code} is missing skill label "${key}"`).toBeTruthy();
+      }
+    }
+  });
+
+  it('leaves no unused skill label, and keeps labels free of product names', () => {
+    const labelKeys = new Set(
+      profile.skills
+        .flatMap((group) => group.items)
+        .flatMap((item) => (item.labelKey ? [item.labelKey] : [])),
+    );
+
+    for (const locale of locales) {
+      for (const key of Object.keys(locale.skillLabels)) {
+        expect(labelKeys, `${locale.code} has an unused skill label "${key}"`).toContain(key);
+      }
+    }
+  });
+
   it('exposes both locales plus the shared UI strings', () => {
     for (const locale of locales) {
       expect(locale.ui.nav.experience).toBeTruthy();

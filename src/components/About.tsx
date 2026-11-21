@@ -1,5 +1,5 @@
 import { profile } from '../content/profile';
-import { useContent, useUi } from '../i18n/LanguageProvider';
+import { useContent, useLanguage, useUi } from '../i18n/LanguageProvider';
 import type { Emphasis } from '../content/profile';
 
 const levelTone: Record<Emphasis, string> = {
@@ -10,7 +10,8 @@ const levelTone: Record<Emphasis, string> = {
 
 const SkillGroupCard = ({ id }: { readonly id: string }) => {
   const content = useContent(id);
-  const ui = useUi();
+  const { locale } = useLanguage();
+  const ui = locale.ui;
   const group = profile.skills.find((candidate) => candidate.id === id);
   if (!group) return null;
 
@@ -24,7 +25,9 @@ const SkillGroupCard = ({ id }: { readonly id: string }) => {
             key={item.name}
             className="flex items-baseline justify-between gap-3 border-b border-line/60 py-1.5 last:border-0"
           >
-            <span className="font-mono text-[11px] font-medium text-ink">{item.name}</span>
+            <span className="font-mono text-[11px] font-medium text-ink">
+              {item.labelKey ? (locale.skillLabels[item.labelKey] ?? item.name) : item.name}
+            </span>
             <span
               className={`font-mono text-[10px] font-semibold uppercase tracking-wide ${levelTone[item.emphasis]}`}
             >
@@ -47,12 +50,12 @@ export const About = () => {
         <h2 className="text-h1 font-display text-ink">{ui.about.heading}</h2>
       </div>
 
-      <div className="mt-8 flex flex-col items-start justify-between gap-6 rounded-[var(--radius-card)] border border-line bg-raised p-6 shadow-card md:flex-row md:items-center md:p-8">
-        <div className="flex max-w-2xl flex-col gap-2">
+      <div className="mt-8 flex flex-col gap-6 rounded-[var(--radius-card)] border border-line bg-raised p-6 shadow-card md:p-8">
+        <div className="flex max-w-3xl flex-col gap-2">
           <span className="eyebrow">{ui.about.philosophyLabel}</span>
           <p className="text-[15px] leading-relaxed text-ink">{ui.about.philosophy}</p>
         </div>
-        <div className="flex shrink-0 items-center gap-2.5">
+        <div className="flex items-center gap-2.5 border-t border-line/60 pt-4">
           <div className="flex -space-x-1.5">
             {(['TS', 'JS', 'AI'] as const).map((badge, index) => (
               <span
