@@ -1,0 +1,162 @@
+@import 'tailwindcss';
+
+@theme {
+  /* ── Surfaces: warm paper, never pure grey ─────────────────────────── */
+  --color-canvas: #faf8f5;
+  --color-raised: #ffffff;
+  --color-well: #f5f2eb;
+  --color-sunk: #efe6df;
+
+  /* ── Ink ───────────────────────────────────────────────────────────── */
+  --color-ink: #1c1917;
+  --color-ink-soft: #57534e;
+  --color-ink-muted: #a8a29e;
+
+  /* ── Accents: terracotta anchors, amber signals, emerald status ─────── */
+  --color-clay: #c2410c;
+  --color-clay-deep: #9b2f00;
+  --color-amber: #d97706;
+  --color-live: #059669;
+
+  /* ── Hairlines ─────────────────────────────────────────────────────── */
+  --color-line: #e7e2da;
+  --color-line-strong: #d6cebf;
+
+  /* ── Type: three families only ─────────────────────────────────────── */
+  --font-display: 'Plus Jakarta Sans', system-ui, sans-serif;
+  --font-body: 'Inter', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+
+  /* ── Editorial scale, tightened tracking on display sizes ──────────── */
+  --text-display: 3rem;
+  --text-display--line-height: 1.12;
+  --text-display--letter-spacing: -0.03em;
+  --text-display--font-weight: 700;
+
+  --text-h1: 2.25rem;
+  --text-h1--line-height: 1.18;
+  --text-h1--letter-spacing: -0.025em;
+  --text-h1--font-weight: 700;
+
+  --text-h2: 1.5rem;
+  --text-h2--line-height: 1.28;
+  --text-h2--letter-spacing: -0.015em;
+  --text-h2--font-weight: 600;
+
+  --text-h3: 1.125rem;
+  --text-h3--line-height: 1.4;
+  --text-h3--letter-spacing: -0.01em;
+  --text-h3--font-weight: 600;
+
+  /* ── Shape: soft, architectural. Never bubbly ──────────────────────── */
+  --radius-tight: 0.25rem;
+  --radius-card: 0.5rem;
+  --radius-modal: 0.75rem;
+
+  /* ── Depth: tonal layering, warm-tinted ambient diffusion ──────────── */
+  --shadow-card: 0 2px 10px -2px rgb(41 37 36 / 0.04), 0 1px 3px -1px rgb(41 37 36 / 0.02);
+  --shadow-lift: 0 12px 24px -6px rgb(194 65 12 / 0.06), 0 4px 12px -2px rgb(41 37 36 / 0.03);
+  --shadow-overlay: 0 24px 48px -12px rgb(28 25 23 / 0.08), 0 8px 16px -4px rgb(28 25 23 / 0.03);
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  body {
+    background-color: var(--color-canvas);
+    color: var(--color-ink);
+    font-family: var(--font-body);
+    font-size: 0.9375rem;
+    line-height: 1.58;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: var(--font-display);
+    text-wrap: balance;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+
+  /* Scrollbar stays visible: hidden scrollbars break keyboard and screen
+     reader position cues. Only the colour is toned to the palette. */
+  * {
+    scrollbar-color: var(--color-line-strong) transparent;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-clay);
+    outline-offset: 2px;
+  }
+
+  ::selection {
+    background-color: var(--color-clay);
+    color: #fff;
+  }
+}
+
+@utility label-mono {
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+@utility eyebrow {
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--color-clay);
+}
+
+/* Entrance reveal, driven by IntersectionObserver. The hiding rule is scoped to
+   `html.reveal-ready`, a class set by an inline script in index.html. If the JS
+   bundle never executes, the class is missing and nothing is hidden: content
+   must not depend on an animation running. */
+@utility reveal {
+  transition:
+    opacity 0.6s cubic-bezier(0.16, 1, 0.3, 1),
+    transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+
+  &.is-visible {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+html.reveal-ready .reveal:not(.is-visible) {
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+
+  .reveal,
+  html.reveal-ready .reveal:not(.is-visible) {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+  }
+}
