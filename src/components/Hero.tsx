@@ -8,8 +8,8 @@ const tickerTechnologies = [
   'Node.js',
   'PostgreSQL',
   'AWS',
-  'Bedrock',
   'Claude Code',
+  'Pi Agent',
   'React',
   'Docker',
 ];
@@ -23,11 +23,8 @@ export const Hero = () => {
       <div className="grid grid-cols-1 items-center gap-10 lg:grid-cols-12">
         <div className="order-1 flex flex-col gap-5 lg:order-1 lg:col-span-7">
           <span className="inline-flex w-fit items-center gap-2 rounded-full border border-line bg-raised px-3 py-1.5 font-mono text-[11px] text-clay shadow-card">
-            <span className="relative flex h-1.5 w-1.5">
-              <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-live opacity-75" />
-              <span className="relative inline-flex h-1.5 w-1.5 rounded-full bg-live" />
-            </span>
-            {ui.hero.status} · {profile.shortName}
+            <span className="h-1.5 w-1.5 rounded-full bg-clay" />
+            {ui.hero.kicker}
           </span>
 
           <h1 className="text-[2rem] font-display font-bold leading-[1.14] tracking-[-0.03em] text-ink sm:text-[2.5rem] lg:text-display">
@@ -85,12 +82,6 @@ export const Hero = () => {
                   loading="eager"
                   decoding="async"
                 />
-                <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-ink/55 to-transparent p-3 pt-8">
-                  <span className="inline-flex items-center gap-1.5 rounded bg-ink/45 px-2 py-1 font-mono text-[10px] text-white backdrop-blur-md">
-                    <span className="h-1.5 w-1.5 rounded-full bg-live" />
-                    {ui.hero.status}
-                  </span>
-                </div>
               </div>
             </div>
           </div>

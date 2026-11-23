@@ -107,7 +107,6 @@ export const en: Locale = {
       cv: 'Download CV',
     },
     hero: {
-      status: 'Currently employed',
       kicker: "Hi, I'm Miguel",
       headline: 'I build software that',
       headlineAccent: 'turns data into decisions.',
@@ -122,7 +121,7 @@ export const en: Locale = {
       heading: 'About me and technical stack',
       philosophyLabel: 'How I work',
       philosophy:
-        'I like building things that make someone\'s day easier: an application that replaces a spreadsheet, a tool that saves a team three steps. I work with AI because it is part of how software gets built today, the way a framework used to be: I give it context, the conventions of the project and what I already know does not work, and then I review what comes back the same way I would review another person\'s work. And so I do not fall behind, I build games and small projects where I try whatever just shipped: new models, agents, tools that still have no decent documentation.',
+        'I like building things that make someone\'s day easier: an application that replaces a spreadsheet, a tool that saves a team three steps. I work with AI because it is part of how software gets built today, the way a framework used to be: I give it context, the conventions of the project and what I already know does not work, and then I review what comes back the same way I would review another person\'s work. In my spare time I build games and small projects, mostly out of curiosity: I like understanding how new things work and trying them with my own hands.',
       endToEnd: 'End-to-end stack',
       skillLevels: {
         primary: 'Primary',

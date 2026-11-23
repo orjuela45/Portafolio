@@ -107,7 +107,6 @@ export const es: Locale = {
       cv: 'Descargar CV',
     },
     hero: {
-      status: 'En activo',
       kicker: 'Hola, soy Miguel',
       headline: 'Construyo software que',
       headlineAccent: 'convierte datos en decisiones.',
@@ -122,7 +121,7 @@ export const es: Locale = {
       heading: 'Sobre mí y stack técnico',
       philosophyLabel: 'Cómo trabajo',
       philosophy:
-        'Me gusta construir cosas que le faciliten la vida a alguien: un aplicativo que reemplaza una planilla, una herramienta que le ahorra tres pasos a un equipo. Trabajo con IA porque hoy es parte de cómo se construye software, igual que antes lo fue el framework de turno: le doy contexto, las convenciones del proyecto y lo que ya sé que no funciona, y después reviso lo que devuelve con el mismo ojo con el que revisaría el trabajo de otra persona. Y para no quedarme mirando, hago videojuegos y proyectos chicos donde pruebo lo que va saliendo: modelos nuevos, agentes, herramientas que todavía no tienen documentación decente.',
+        'Me gusta construir cosas que le faciliten la vida a alguien: un aplicativo que reemplaza una planilla, una herramienta que le ahorra tres pasos a un equipo. Trabajo con IA porque hoy es parte de cómo se construye software, igual que antes lo fue el framework de turno: le doy contexto, las convenciones del proyecto y lo que ya sé que no funciona, y después reviso lo que devuelve con el mismo ojo con el que revisaría el trabajo de otra persona. En mi tiempo libre hago videojuegos y proyectos chicos, más que todo por curiosidad: me gusta entender cómo funcionan las cosas nuevas y probarlas con mis propias manos.',
       endToEnd: 'Stack de punta a punta',
       skillLevels: {
         primary: 'Principal',

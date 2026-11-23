@@ -175,7 +175,7 @@ describe('translations', () => {
     for (const locale of locales) {
       expect(locale.ui.nav.experience).toBeTruthy();
       expect(locale.ui.cv.download).toBeTruthy();
-      expect(locale.ui.hero.status).toBeTruthy();
+      expect(locale.ui.hero.kicker).toBeTruthy();
     }
   });
 });

@@ -14,7 +14,6 @@ export type UiStrings = {
     readonly cv: string;
   };
   readonly hero: {
-    readonly status: string;
     readonly kicker: string;
     readonly headline: string;
     readonly headlineAccent: string;
